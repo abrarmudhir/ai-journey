@@ -15,6 +15,7 @@ name = "ai-journey"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "category-encoders" },
     { name = "ipykernel" },
     { name = "matplotlib" },
     { name = "missingno" },
@@ -30,6 +31,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "category-encoders", specifier = ">=2.11.1" },
     { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "missingno", specifier = ">=0.5.2" },
@@ -57,6 +59,21 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/25/1e/faf0f247f6f881b98fc4d6d07e14085cb89d13665084e6d6ac1dc2c03d0b/asttokens-3.0.2.tar.gz", hash = "sha256:3ecdbd8f2cc195f53ccada3a613538bb5f9ef6f6869129f13e03c30a677b8fe2", size = 63136, upload-time = "2026-07-12T03:31:49.084Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d4/2b/04b8a15f3a1c77bc79ddf5c73875327f34b4fa75982df2b76e45e402d364/asttokens-3.0.2-py3-none-any.whl", hash = "sha256:9da13157f5b28becde0bd374fc677dcd3c290614264eff096f167c469cd9f933", size = 28702, upload-time = "2026-07-12T03:31:47.542Z" },
+]
+
+[[package]]
+name = "category-encoders"
+version = "2.11.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/6d/28/3325463e27238bacefce34902ce2e5883ea3bd4044ce93e744ef499a6d72/category_encoders-2.11.1.tar.gz", hash = "sha256:f21b99185800c19b562b2928a0fe67dbf5658d048cd70451bfe8811c4123fdb0", size = 76600, upload-time = "2026-09-08T15:29:09.823Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/2a/e3/d67cd83d61549823d3c0f11c3b57e9057e377441714ca2990105a640ce56/category_encoders-2.11.1-py3-none-any.whl", hash = "sha256:bba59a25bcee5b11380ea1fda2690b427bdd06e2ed36a17cab55fdd3b70bda16", size = 107914, upload-time = "2026-09-08T15:29:08.398Z" },
 ]
 
 [[package]]
