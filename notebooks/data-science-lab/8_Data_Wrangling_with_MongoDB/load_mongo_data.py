@@ -10,6 +10,7 @@ def load_nairobi_to_mongodb(host):
     """
     from pymongo import MongoClient
     import pandas as pd
+    from pathlib import Path
 
     port = 27017
 
@@ -18,7 +19,7 @@ def load_nairobi_to_mongodb(host):
         # Force connection check
         client.server_info()
     except Exception as e:
-        print(f"❌ Could not connect to MongoDB at {host}:{port}. Please check your host IP.")
+        print(f"ERROR: Could not connect to MongoDB at {host}:{port}. Please check your host IP.")
         print(f"   Error: {e}")
         return
 
@@ -26,16 +27,17 @@ def load_nairobi_to_mongodb(host):
     db["nairobi"].drop()
 
     try:
-        df = pd.read_parquet('nairobi.parquet')
+        data_path = Path(__file__).resolve().with_name("nairobi.parquet")
+        df = pd.read_parquet(data_path)
     except FileNotFoundError:
-        print("❌ Could not find 'nairobi.parquet'. Make sure the file is in the same directory.")
+        print(f"ERROR: Could not find the Nairobi data file at {data_path}.")
         return
 
     if df['timestamp'].dtype != 'object':
         df['timestamp'] = df['timestamp'].astype(str)
 
     db['nairobi'].insert_many(df.to_dict('records'))
-    print(f"✅ Nairobi data successfully loaded to MongoDB at {host}:{port}!")
+    print(f"Nairobi data successfully loaded to MongoDB at {host}:{port}!")
     print(f"   Collection: air-quality.nairobi | Documents inserted: {len(df)}")
 
     client.close()
