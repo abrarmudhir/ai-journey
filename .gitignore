@@ -217,3 +217,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .idea
+/notebooks/data-science-lab/12_Working_with_Databases_SQLite_vs_DuckDB/nepal.sqlite
+/notebooks/data-science-lab/12_Working_with_Databases_SQLite_vs_DuckDB/data/building_damage.csv
