@@ -1,0 +1,759 @@
+import json
+import mimetypes
+from pathlib import Path
+from dataclasses import dataclass
+from enum import Enum
+from datetime import datetime, timezone
+from typing import final
+
+CONFIG = {
+    'MAX_SIZE_IN_BYTES': 1024 * 1024 * 10,  # 10 MB
+    # 'MAX_SIZE_IN_BYTES': -1,
+    'MAX_DEPTH': 2,
+    'INCLUDE_HIDDEN': False
+}
+
+
+class PreviewType(Enum):
+    NONE = "none"
+    PARTIAL = "partial"
+    FULL = "full"
+    ERROR = "error"
+
+@dataclass
+class FilePreview:
+    contents: str
+    preview_type: PreviewType
+    mime_type: str
+
+@dataclass
+class SymlinkInfo:
+    target: str
+    target_exists: bool
+    is_broken: bool
+    is_circular: bool = False
+
+@dataclass
+class Node:
+    name: str
+    extension: str
+    path: str
+    type: str  # "file", "dir", or "symlink"
+    size: int = None
+    last_modified: str = None
+    preview: FilePreview = None
+    children: list = None
+    symlink_info: SymlinkInfo = None
+
+    def to_dict(self):
+        """Convert Node to dictionary for JSON serialization."""
+        result = {
+            'name': self.name,
+            'extension': self.extension,
+            'path': self.path,
+            'type': self.type,
+            'size': self.size,
+            'last_modified': self.last_modified
+        }
+
+        if self.preview:
+            result['preview'] = {
+                'contents': self.preview.contents,
+                'preview_type': self.preview.preview_type.value,
+                'mime_type': self.preview.mime_type
+            }
+
+        if self.symlink_info:
+            result['symlink_info'] = {
+                'target': self.symlink_info.target,
+                'target_exists': self.symlink_info.target_exists,
+                'is_broken': self.symlink_info.is_broken,
+                'is_circular': self.symlink_info.is_circular
+            }
+
+        if self.children:
+            result['children'] = [child.to_dict() for child in self.children]
+
+        return result
+
+
+class BaseHandler:
+    MIME_TYPES = []
+    FILE_EXTENSIONS = []
+    DEFAULT_MIME_TYPE = None
+    defaults = {}
+
+    def __init__(self, config):
+        self.config = {}
+        if self.namespace:
+            handler_config = config.get(self.namespace, {})
+            for key, value in self.defaults.items():
+                self.config[key] = handler_config.get(key, value)
+
+    @property
+    def namespace(self):
+        return self.__class__.__name__
+
+    def _handle(self, file_path, file_extension=None):
+        """
+        Returns (contents, preview_type, mime_type: optional)
+        If mime_type is None, DEFAULT_MIME_TYPE will be used.
+
+        Args:
+            file_path: Path to the file to handle
+            file_extension: File extension (e.g., '.py', '.js') for extension-specific handling
+        """
+        raise NotImplementedError("Subclasses must implement handle()")
+
+    @final
+    def handle(self, file_path, file_extension=None):
+        """
+        Handle a file and returns a FilePreview
+
+        Args:
+            file_path: Path to the file to handle
+            file_extension: File extension for extension-specific handling
+
+        Returns:
+            FilePreview: The file preview object
+        """
+        try:
+            values = self._handle(file_path, file_extension=file_extension)
+        except Exception:
+            return FilePreview(
+                contents="",
+                mime_type=self.DEFAULT_MIME_TYPE,
+                preview_type=PreviewType.ERROR
+            )
+        if len(values) == 2:
+            contents, preview_type = values
+            mime_type = self.DEFAULT_MIME_TYPE
+        else:
+            contents, preview_type, mime_type = values
+
+        return FilePreview(
+            contents=contents,
+            mime_type=mime_type,
+            preview_type=preview_type
+        )
+
+
+class JupyterNotebookHandler(BaseHandler):
+    FILE_EXTENSIONS = [".ipynb"]
+    DEFAULT_MIME_TYPE = "application/x-ipynb+json"
+    defaults = {
+        "max_cells": -1,
+        "include_output": True
+    }
+
+    def _handle(self, file_path, file_extension=None):
+        import nbformat
+        from nbconvert import HTMLExporter
+
+        html_exporter = HTMLExporter()
+        html_exporter.exclude_input = False  # Include inputs in the output
+        html_exporter.embed_images = True   # Embed images in the output
+        with open(file_path, "r", encoding="utf-8") as f:
+            notebook_content = f.read()
+
+        notebook_node = nbformat.reads(notebook_content, as_version=4)
+
+        body, _ = html_exporter.from_notebook_node(notebook_node)
+
+        return body, PreviewType.FULL
+
+
+class BaseImageHandler(BaseHandler):
+    MIME_TYPES = ["image/"]
+    FILE_EXTENSIONS = [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".tiff", ".webp"]
+    DEFAULT_MIME_TYPE = "image/png"
+
+    def _handle(self, file_path, file_extension=None):
+        # In real implementation: base64 encode the image
+        import base64
+
+        with open(file_path, 'rb') as f:
+            encoded = base64.b64encode(f.read()).decode('utf-8')
+        return encoded, PreviewType.FULL
+
+
+class PNGHandler(BaseImageHandler):
+    MIME_TYPES = ["image/png"]
+    DEFAULT_MIME_TYPE = "image/png"
+
+
+class JPGHandler(BaseImageHandler):
+    MIME_TYPES = ["image/jpeg"]
+    DEFAULT_MIME_TYPE = "image/jpeg"
+    FILE_EXTENSIONS = [".jpg", ".jpeg"]
+
+
+class GIFHandler(BaseImageHandler):
+    MIME_TYPES = ["image/gif"]
+    DEFAULT_MIME_TYPE = "image/gif"
+    FILE_EXTENSIONS = [".gif"]
+
+
+class TextHandler(BaseHandler):
+    """
+    Unified handler for all text-based files.
+    Designed to be easily extensible - subclasses can override _handle()
+    while inheriting config and helper methods.
+    """
+    MIME_TYPES = ["text/"]  # Catch-all for text types
+    FILE_EXTENSIONS = [
+        # Python
+        ".py", ".pyw", ".pyx",
+        # JavaScript/TypeScript
+        ".js", ".jsx", ".ts", ".tsx", ".mjs", ".cjs",
+        # Web
+        ".html", ".htm", ".css", ".scss", ".sass", ".less",
+        # Data formats
+        ".json", ".yaml", ".yml", ".xml", ".toml", ".ini", ".cfg",
+        # Markdown and docs
+        ".md", ".markdown", ".rst", ".txt",
+        # Shell scripts
+        ".sh", ".bash", ".zsh", ".fish",
+        # Other languages
+        ".rb", ".go", ".rs", ".java", ".c", ".cpp", ".h", ".hpp",
+        ".cs", ".php", ".swift", ".kt", ".scala", ".r",
+        # Config files
+        ".conf", ".config", ".env", ".properties",
+        # SQL
+        ".sql",
+    ]
+    DEFAULT_MIME_TYPE = "text/plain"
+
+    # Extension-specific MIME types
+    EXTENSION_MIME_TYPES = {
+        ".py": "text/x-python",
+        ".pyw": "text/x-python",
+        ".pyx": "text/x-python",
+        ".js": "text/javascript",
+        ".jsx": "text/javascript",
+        ".ts": "text/typescript",
+        ".tsx": "text/typescript",
+        ".mjs": "text/javascript",
+        ".cjs": "text/javascript",
+        ".html": "text/html",
+        ".htm": "text/html",
+        ".css": "text/css",
+        ".scss": "text/x-scss",
+        ".sass": "text/x-sass",
+        ".less": "text/x-less",
+        ".json": "application/json",
+        ".yaml": "text/yaml",
+        ".yml": "text/yaml",
+        ".xml": "text/xml",
+        ".toml": "text/x-toml",
+        ".md": "text/markdown",
+        ".markdown": "text/markdown",
+        ".rst": "text/x-rst",
+        ".sh": "text/x-shellscript",
+        ".bash": "text/x-shellscript",
+        ".rb": "text/x-ruby",
+        ".go": "text/x-go",
+        ".rs": "text/x-rust",
+        ".java": "text/x-java",
+        ".c": "text/x-c",
+        ".cpp": "text/x-c++",
+        ".h": "text/x-c",
+        ".hpp": "text/x-c++",
+        ".cs": "text/x-csharp",
+        ".php": "text/x-php",
+        ".swift": "text/x-swift",
+        ".kt": "text/x-kotlin",
+        ".sql": "text/x-sql",
+    }
+
+    defaults = {
+        "max_lines": 500,  # Global default
+        # Per-extension defaults (can be overridden via CLI)
+        "python__max_lines": 1000,
+        "javascript__max_lines": 800,
+        "typescript__max_lines": 800,
+        "json__max_lines": 500,
+        "markdown__max_lines": 2000,
+        "html__max_lines": 800,
+        "css__max_lines": 600,
+        "yaml__max_lines": 400,
+        "xml__max_lines": 400,
+        "sql__max_lines": 600,
+    }
+
+    # Map file extensions to config keys
+    EXTENSION_CONFIG_KEYS = {
+        ".py": "python",
+        ".pyw": "python",
+        ".pyx": "python",
+        ".js": "javascript",
+        ".jsx": "javascript",
+        ".mjs": "javascript",
+        ".cjs": "javascript",
+        ".ts": "typescript",
+        ".tsx": "typescript",
+        ".json": "json",
+        ".yaml": "yaml",
+        ".yml": "yaml",
+        ".xml": "xml",
+        ".md": "markdown",
+        ".markdown": "markdown",
+        ".html": "html",
+        ".htm": "html",
+        ".css": "css",
+        ".scss": "css",
+        ".sass": "css",
+        ".less": "css",
+        ".sql": "sql",
+    }
+
+    def _get_extension_config(self, file_extension, config_key):
+        """
+        Get configuration value for a specific extension.
+        Looks up {extension_key}__{config_key} first, then falls back to config_key.
+
+        This method can be used by subclasses to get extension-specific config.
+        """
+        extension_key = self.EXTENSION_CONFIG_KEYS.get(file_extension)
+        if extension_key:
+            specific_key = f"{extension_key}__{config_key}"
+            if specific_key in self.config:
+                return self.config[specific_key]
+        return self.config.get(config_key)
+
+    def _read_file_lines(self, file_path):
+        """
+        Read file and return lines.
+        Helper method that can be reused by subclasses.
+        """
+        with open(file_path, 'r', encoding='utf-8') as f:
+            contents = f.read()
+        return contents.split('\n')
+
+    def _truncate_lines(self, lines, max_lines):
+        """
+        Truncate lines if needed and return (contents, preview_type).
+        Helper method that can be reused by subclasses.
+        """
+        if len(lines) > max_lines:
+            preview_type = PreviewType.PARTIAL
+            contents = '\n'.join(lines[:max_lines]) + f"\n... ({len(lines) - max_lines} more lines)"
+        else:
+            preview_type = PreviewType.FULL
+            contents = '\n'.join(lines)
+        return contents, preview_type
+
+    def _get_mime_type(self, file_extension):
+        """
+        Get the appropriate MIME type for the file extension.
+        Can be overridden by subclasses for custom MIME type logic.
+        """
+        return self.EXTENSION_MIME_TYPES.get(file_extension, self.DEFAULT_MIME_TYPE)
+
+    def _handle(self, file_path, file_extension=None):
+        """
+        Handle text file processing.
+
+        Subclasses can override this method to add custom behavior while
+        reusing helper methods like _read_file_lines(), _truncate_lines(), etc.
+        """
+        lines = self._read_file_lines(file_path)
+        max_lines = self._get_extension_config(file_extension, 'max_lines')
+        contents, preview_type = self._truncate_lines(lines, max_lines)
+        mime_type = self._get_mime_type(file_extension)
+
+        return contents, preview_type, mime_type
+
+
+class BinaryHandler(BaseHandler):
+    MIME_TYPES = ["image/", "video/", "application/pdf"]
+    namespace = "binary_handler"
+
+    def _handle(self, file_path, file_extension=None):
+        return None, PreviewType.NONE
+
+
+HANDLERS = [
+    JupyterNotebookHandler,
+    PNGHandler,
+    JPGHandler,
+    GIFHandler,
+    TextHandler,
+    BinaryHandler,
+]
+
+
+class HandlerRegistry:
+    def __init__(self, config, handlers=None):
+        self.config = config
+        self.mime_type_to_handler = {}
+        self.file_extension_to_handler = {}
+        self._register_handlers(handlers or HANDLERS)
+
+    def _mimetype_split(self, mime_type):
+        parts = mime_type.split('/', 1)
+        assert len(parts) > 0, "Invalid mime type"
+        if len(parts) == 1:
+            return parts[0], ""
+        return parts
+
+    def _register_handlers(self, handlers):
+        for HandlerClass in handlers:
+            handler = HandlerClass(self.config)
+
+            for mime_type in HandlerClass.MIME_TYPES:
+                part_1, part_2 = self._mimetype_split(mime_type)
+                self.mime_type_to_handler.setdefault((part_1, part_2), [])
+                self.mime_type_to_handler[(part_1, part_2)].append(handler)
+
+            for file_extension in HandlerClass.FILE_EXTENSIONS:
+                self.file_extension_to_handler.setdefault(file_extension, [])
+                self.file_extension_to_handler[file_extension].append(handler)
+
+    def find_handler(self, mime_type, file_extension):
+        """
+        Find the appropriate handler for a file.
+
+        Priority:
+        1. Exact mime type match
+        2. Supertype mime type match (e.g., "image/")
+        3. File extension match
+
+        Returns:
+            BaseHandler or None
+        """
+        # import ipdb; ipdb.set_trace()
+        if mime_type:
+            part_1, part_2 = self._mimetype_split(mime_type)
+            if (part_1, part_2) in self.mime_type_to_handler:
+                return self.mime_type_to_handler[(part_1, part_2)][0]
+            elif (part_1, "") in self.mime_type_to_handler:
+                return self.mime_type_to_handler[(part_1, "")][0]
+        # Try file extension match
+        if file_extension and file_extension in self.file_extension_to_handler:
+            return self.file_extension_to_handler[file_extension][0]
+
+        return None
+
+
+def get_file_info(file_path, follow_symlinks=True):
+    """Get basic file information."""
+    stat_info = file_path.stat() if follow_symlinks else file_path.lstat()
+    return {
+        'size': stat_info.st_size,
+        'last_modified': datetime.fromtimestamp(
+            stat_info.st_mtime,
+            tz=timezone.utc
+        ).isoformat()
+    }
+
+
+def process_symlink(symlink_path, visited_paths):
+    """Process a symlink and return a Node with symlink information."""
+    try:
+        target = symlink_path.resolve()
+        target_str = str(target)
+
+        # Check for circular reference
+        if target_str in visited_paths:
+            return Node(
+                name=symlink_path.name,
+                path=str(symlink_path),
+                extension=symlink_path.suffix.lower(),
+                type="symlink",
+                symlink_info=SymlinkInfo(
+                    target=target_str,
+                    target_exists=False,
+                    is_broken=False,
+                    is_circular=True
+                )
+            )
+
+        # Check if target exists
+        target_exists = target.exists()
+
+        # Get file info for the symlink itself (not the target)
+        info = get_file_info(symlink_path, follow_symlinks=False)
+
+        return Node(
+            name=symlink_path.name,
+            path=str(symlink_path),
+            extension=symlink_path.suffix.lower(),
+            type="symlink",
+            size=info['size'],
+            last_modified=info['last_modified'],
+            symlink_info=SymlinkInfo(
+                target=target_str,
+                target_exists=target_exists,
+                is_broken=not target_exists,
+                is_circular=False
+            )
+        )
+    except Exception:
+        # Handle cases where we can't resolve the symlink
+        return Node(
+            name=symlink_path.name,
+            path=str(symlink_path),
+            extension=symlink_path.suffix.lower(),
+            type="symlink",
+            symlink_info=SymlinkInfo(
+                target="<unresolvable>",
+                target_exists=False,
+                is_broken=True,
+                is_circular=False
+            )
+        )
+
+
+def process_file(file_path, handler_registry, config, visited_paths=None):
+    """Process a single file and create a Node."""
+    if visited_paths is None:
+        visited_paths = set()
+
+    # Check if this is a symlink first
+    if file_path.is_symlink():
+        return process_symlink(file_path, visited_paths)
+
+    info = get_file_info(file_path)
+    max_size = config['MAX_SIZE_IN_BYTES']
+
+    # Guess mime type
+    mime_type, _ = mimetypes.guess_type(str(file_path))
+    file_extension = file_path.suffix.lower()
+
+    # Initialize defaults
+    preview = None
+
+    # Check if file size is within limits before invoking handler
+    if max_size == -1 or info['size'] <= max_size:
+        handler = handler_registry.find_handler(mime_type, file_extension)
+
+        if handler:
+            try:
+                preview = handler.handle(str(file_path), file_extension=file_extension)
+            except Exception:
+                # If handler fails, fall back to defaults
+                preview = FilePreview(
+                    contents="",
+                    preview_type=PreviewType.ERROR,
+                    mime_type=mime_type or "application/octet-stream"
+                )
+
+    return Node(
+        path=str(file_path),
+        name=file_path.name,
+        extension=file_extension,
+        type="file",
+        size=info['size'],
+        last_modified=info['last_modified'],
+        preview=preview
+    )
+
+
+def process_directory(dir_path, handler_registry, config, current_depth=0, visited_paths=None):
+    """Process a directory recursively and create a Node tree."""
+    if visited_paths is None:
+        visited_paths = set()
+
+    # Check if this is a symlink to a directory
+    if dir_path.is_symlink():
+        return process_symlink(dir_path, visited_paths)
+
+    max_depth = config['MAX_DEPTH']
+    include_hidden = config['INCLUDE_HIDDEN']
+
+    # Add current directory to visited paths (circular reference protection)
+    resolved_path = str(dir_path.resolve())
+    if resolved_path in visited_paths:
+        # Return directory node without children to avoid infinite recursion
+        info = get_file_info(dir_path)
+        return Node(
+            path=str(dir_path),
+            name=dir_path.name,
+            extension="",
+            type="dir",
+            size=info['size'],
+            last_modified=info['last_modified'],
+            children=None
+        )
+
+    visited_paths.add(resolved_path)
+    info = get_file_info(dir_path)
+
+    children = []
+
+    if current_depth < max_depth:
+        for item in sorted(dir_path.iterdir()):
+            # Skip hidden files if configured
+            if not include_hidden and item.name.startswith('.'):
+                continue
+
+            # Skip "run-UUID" files used during exec_run()
+            if item.is_file() and item.name.startswith("run-"):
+                continue
+
+            # Skip __pycache__ directories
+            if item.is_dir() and item.name == "__pycache__":
+                continue
+
+            # Check for symlink first, before is_file() or is_dir()
+            if item.is_symlink():
+                node = process_symlink(item, visited_paths)
+                children.append(node)
+            elif item.is_file():
+                node = process_file(item, handler_registry, config, visited_paths)
+                children.append(node)
+            elif item.is_dir():
+                # Create a copy of visited_paths for this branch
+                node = process_directory(
+                    item,
+                    handler_registry,
+                    config,
+                    current_depth + 1,
+                    visited_paths.copy()
+                )
+                children.append(node)
+
+    return Node(
+        path=str(dir_path),
+        name=dir_path.name,
+        extension="",  # Directories don't have extensions
+        type="dir",
+        size=info['size'],
+        last_modified=info['last_modified'],
+        children=children if children else None
+    )
+
+
+def generate_filesystem_tree(base_path, config):
+    """
+    Generate a JSON representation of the filesystem starting from base_path.
+
+    Args:
+        base_path: Path to start traversal
+        max_depth: Maximum depth to traverse
+        include_hidden: Whether to include hidden files/directories
+        max_size: Maximum file size to process (bytes)
+        config: Handler configuration dictionary
+
+    Returns:
+        Node: Root node of the filesystem tree
+    """
+
+    path = Path(base_path).resolve()
+    handler_registry = HandlerRegistry(config)
+
+    if not path.exists():
+        raise ValueError(f"Path does not exist: {base_path}")
+
+    if path.is_file():
+        return process_file(path, handler_registry, config)
+    else:
+        return process_directory(path, handler_registry, config)
+
+
+# ============================================================================
+# Main Entry Point
+# ============================================================================
+
+def parse_handler_configs(argv):
+    """
+    Parse handler configuration arguments from command line.
+
+    Looks for arguments in the format: --HandlerName.key=value
+    Returns (handler_configs, remaining_args)
+
+    Example:
+        --TextHandler.python__max_lines=1500
+        --JupyterNotebookHandler.max_cells=50
+    """
+    handler_configs = {}
+    remaining_args = []
+
+    for arg in argv:
+        # Check if it's a handler config argument
+        if arg.startswith("--") and "." in arg and "=" in arg:
+            # Remove leading --
+            arg = arg[2:]
+
+            # Split into handler name and rest
+            if "." not in arg:
+                remaining_args.append("--" + arg)
+                continue
+
+            handler_name, rest = arg.split(".", 1)
+
+            if "=" not in rest:
+                remaining_args.append("--" + arg)
+                continue
+
+            key, value = rest.split("=", 1)
+
+            # Type conversion: try int, then bool, then string
+            if value.isdigit():
+                value = int(value)
+            elif value.lower() in ('true', 'false'):
+                value = value.lower() == 'true'
+
+            # Add to handler configs
+            handler_configs.setdefault(handler_name, {})[key] = value
+        else:
+            remaining_args.append(arg)
+
+    return handler_configs, remaining_args
+
+
+def main():
+    import argparse
+    import sys
+
+    # Parse handler configs first
+    handler_configs, remaining_args = parse_handler_configs(sys.argv[1:])
+
+    # Create base config with command-line overrides
+    config = CONFIG.copy()
+
+    # Merge handler configs into main config
+    for handler_name, handler_config in handler_configs.items():
+        config[handler_name] = {**config.get(handler_name, {}), **handler_config}
+
+    parser = argparse.ArgumentParser(
+        description="Generate static JSON representation of filesystem",
+        epilog="""
+Handler Configuration:
+  You can configure handlers with --HandlerName.key=value syntax:
+    --TextHandler.python__max_lines=1500
+    --TextHandler.javascript__max_lines=800
+    --JupyterNotebookHandler.max_cells=50
+        """
+    )
+    parser.add_argument("--base_path", default="/app", help="Base path to generate tree from")
+    parser.add_argument("--max-depth", type=int, default=CONFIG["MAX_DEPTH"], help="Maximum depth to traverse")
+    parser.add_argument("--max-size", type=int, default=CONFIG["MAX_SIZE_IN_BYTES"], help="Maximum file size to process (bytes)")
+    parser.add_argument("--include-hidden", action="store_true", help="Include hidden files and directories")
+    parser.add_argument("--output", "-o", help="Output file (default: stdout)")
+
+    args = parser.parse_args(remaining_args)
+
+    # Update config with command-line arguments
+    config['MAX_DEPTH'] = args.max_depth
+    config['MAX_SIZE_IN_BYTES'] = args.max_size
+    config['INCLUDE_HIDDEN'] = args.include_hidden
+
+    tree = generate_filesystem_tree(
+        args.base_path,
+        config=config
+    )
+
+    json_output = json.dumps(tree.to_dict(), indent=2)
+
+    result = {
+        "success": True,
+        "stdout": json_output,
+        "stderr": ""
+    }
+    print(json.dumps(result))
+
+
+if __name__ == "__main__":
+    main()
