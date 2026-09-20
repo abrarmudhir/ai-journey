@@ -228,3 +228,13 @@ __marimo__/
 /notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/building_structure.csv
 /notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/household_demographics.csv
 /notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/id_map.csv
+/notebooks/data-science-lab/15_Demographics_and_Building_Damage_Who_Gets_Hit_Hardest/nepal.sqlite
+/notebooks/data-science-lab/15_Demographics_and_Building_Damage_Who_Gets_Hit_Hardest/data/building_damage.txt
+/notebooks/data-science-lab/15_Demographics_and_Building_Damage_Who_Gets_Hit_Hardest/data/building_structure.txt
+/notebooks/data-science-lab/15_Demographics_and_Building_Damage_Who_Gets_Hit_Hardest/data/household_demographics.txt
+/notebooks/data-science-lab/15_Demographics_and_Building_Damage_Who_Gets_Hit_Hardest/data/id_map.txt
+/notebooks/data-science-lab/16_End_to_End_Classification_Workflow/nepal.sqlite
+/notebooks/data-science-lab/16_End_to_End_Classification_Workflow/data/building_damage.csv
+/notebooks/data-science-lab/16_End_to_End_Classification_Workflow/data/building_structure.csv
+/notebooks/data-science-lab/16_End_to_End_Classification_Workflow/data/household_demographics.csv
+/notebooks/data-science-lab/16_End_to_End_Classification_Workflow/data/id_map.csv
