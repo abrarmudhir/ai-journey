@@ -224,3 +224,7 @@ __marimo__/
 /notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/household_demographics.csv
 /notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/id_map.csv
 /notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/nepal.sqlite
+/notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/building_damage.csv
+/notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/building_structure.csv
+/notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/household_demographics.csv
+/notebooks/data-science-lab/14_Decision_Trees_Understanding_Feature_Importance/data/id_map.csv
