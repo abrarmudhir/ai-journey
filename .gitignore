@@ -219,3 +219,8 @@ __marimo__/
 .idea
 /notebooks/data-science-lab/12_Working_with_Databases_SQLite_vs_DuckDB/nepal.sqlite
 /notebooks/data-science-lab/12_Working_with_Databases_SQLite_vs_DuckDB/data/building_damage.csv
+/notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/building_damage.csv
+/notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/building_structure.csv
+/notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/household_demographics.csv
+/notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/data/id_map.csv
+/notebooks/data-science-lab/13_Logistic_Regression_Predicting_Earthquake_Damage/nepal.sqlite
