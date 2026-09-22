@@ -210,7 +210,7 @@ class AlphaVantageAPI:
     """
 
     def __init__(self, api_key: str = "demo") -> None:
-        ...
+        self.__api_key = api_key
 
     def get_daily(
         self,
@@ -234,7 +234,37 @@ class AlphaVantageAPI:
             "volume"]``, all float, with a
             ``DatetimeIndex`` named ``"date"``.
         """
-        ...
+        url = (
+            "https://www.alphavantage.co/query?"
+            "function=TIME_SERIES_DAILY&"
+            f"symbol={ticker}&"
+            f"outputsize={output_size}&"
+            "datatype=json&"
+            f"apikey={self.__api_key}"
+        )
+        response = requests.get(url)
+        response.raise_for_status()
+        payload = response.json()
+
+        time_series = payload.get("Time Series (Daily)")
+        if time_series is None:
+            message = payload.get("Error Message") or payload.get("Note")
+            raise ValueError(
+                message or "AlphaVantage response has no daily data"
+            )
+
+        records = pd.DataFrame.from_dict(
+            time_series, orient="index", dtype=float
+        )
+        records.index = pd.to_datetime(records.index)
+        records.index.name = "date"
+        records.columns = [
+            column.split(". ", 1)[-1] for column in records.columns
+        ]
+        records = records[
+            ["open", "high", "low", "close", "volume"]
+        ]
+        return records.astype(float)
 
 
 class SQLRepository:
@@ -247,7 +277,7 @@ class SQLRepository:
     """
 
     def __init__(self, connection: sqlite3.Connection) -> None:
-        ...
+        self.connection = connection
 
     def insert_table(
         self,
@@ -273,7 +303,24 @@ class SQLRepository:
             ``{"transaction_successful": bool,
             "records_inserted": int}``
         """
-        ...
+        try:
+            records.to_sql(
+                name=table_name,
+                con=self.connection,
+                if_exists=if_exists,
+                index=True,
+                index_label="date",
+            )
+            return {
+                "transaction_successful": True,
+                "records_inserted": len(records),
+            }
+        except Exception:
+            self.connection.rollback()
+            return {
+                "transaction_successful": False,
+                "records_inserted": 0,
+            }
 
     def read_table(
         self,
@@ -295,7 +342,23 @@ class SQLRepository:
             ``DatetimeIndex`` named ``"date"``,
             all-float columns.
         """
-        ...
+        safe_table_name = table_name.replace('"', '""')
+        query = (
+            f'SELECT * FROM "{safe_table_name}" '
+            "ORDER BY date DESC"
+        )
+        params = ()
+        if limit is not None:
+            query += " LIMIT ?"
+            params = (limit,)
+
+        records = pd.read_sql(
+            query, self.connection, params=params
+        )
+        records["date"] = pd.to_datetime(records["date"])
+        records = records.set_index("date")
+        records.index.name = "date"
+        return records.astype(float)
 
 
 def wrangle_data(ticker: str, n_observations: int) -> pd.Series:
@@ -313,5 +376,11 @@ def wrangle_data(ticker: str, n_observations: int) -> pd.Series:
     pd.Series
         Named ``"return"``, ``DatetimeIndex``, no NaN.
     """
-    ...
+    api = AlphaVantageAPI()
+    records = api.get_daily(ticker=ticker)
+    records = records.sort_index()
+    returns = records["close"].pct_change().dropna() * 100
+    returns = returns.tail(n_observations)
+    returns.name = "return"
+    return returns
 
