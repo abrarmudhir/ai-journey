@@ -25,11 +25,13 @@ dependencies = [
     { name = "jinja2" },
     { name = "matplotlib" },
     { name = "missingno" },
+    { name = "names" },
     { name = "nbformat" },
     { name = "pandas" },
     { name = "plotly" },
     { name = "pyarrow" },
     { name = "pymongo" },
+    { name = "randomtimestamp" },
     { name = "scikit-learn" },
     { name = "scipy-stubs" },
     { name = "seaborn" },
@@ -53,11 +55,13 @@ requires-dist = [
     { name = "jinja2", specifier = ">=3.1.6" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "missingno", specifier = ">=0.5.2" },
+    { name = "names", specifier = ">=0.3.0" },
     { name = "nbformat", specifier = ">=5.11.1" },
     { name = "pandas", specifier = ">=3.0.5" },
     { name = "plotly", specifier = ">=7.1.0" },
     { name = "pyarrow", specifier = ">=25.0.1" },
     { name = "pymongo", specifier = ">=4.18.1" },
+    { name = "randomtimestamp", specifier = ">=2.3" },
     { name = "scikit-learn", specifier = ">=1.9.1" },
     { name = "scipy-stubs", specifier = ">=1.18.1.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
@@ -1089,6 +1093,12 @@ wheels = [
 ]
 
 [[package]]
+name = "names"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/44/4e/f9cb7ef2df0250f4ba3334fbdabaa94f9c88097089763d8e85ada8092f84/names-0.3.0.tar.gz", hash = "sha256:726e46254f2ed03f1ffb5d941dae3bc67c35123941c29becd02d48d0caa2a671", size = 789099, upload-time = "2013-05-14T14:55:49.073Z" }
+
+[[package]]
 name = "narwhals"
 version = "2.26.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1679,6 +1689,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/35/c1/80dd2d20d6e57bc68e1dce1e84bf3e76c9577c1bf728199985c8b4ea0fd1/pyzmq-27.2.0-cp315-cp315t-win32.whl", hash = "sha256:ac126d48cf18aa955daabef43bf0009ff76ad4deee437d09ecf15388214b5beb", size = 591073, upload-time = "2026-08-20T19:07:31.341Z" },
     { url = "https://files.pythonhosted.org/packages/f8/b5/33b781666f3f52ae834bc9c8e38f4f0483a826c5a91cccc993292007bf10/pyzmq-27.2.0-cp315-cp315t-win_amd64.whl", hash = "sha256:edce90a1e588ec63adbf612cc0ad582de4169cd216c7ae53c15f42a2ee902f35", size = 670701, upload-time = "2026-08-20T19:07:32.895Z" },
     { url = "https://files.pythonhosted.org/packages/6e/97/bc4f0edefb992df4fdebcf9f0cc40f631cd4ed277e1ed59ef2cd99a5c8c5/pyzmq-27.2.0-cp315-cp315t-win_arm64.whl", hash = "sha256:a843094b4d3d633bc3623e47a2ff50742d6af02bc1f7606aa2e67e971e21878d", size = 581985, upload-time = "2026-08-20T19:07:34.19Z" },
+]
+
+[[package]]
+name = "randomtimestamp"
+version = "2.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f5/8d/96e2bff2cefcc80abc247b3876f4173798c6fbc4fdd445d8bed464c639d5/randomtimestamp-2.3.tar.gz", hash = "sha256:d1fd5fcfa41ebd2dc95add20085da1d9345c213c42d2ad37e7a20ca5e9d98e33", size = 18772, upload-time = "2025-06-22T08:07:36.725Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/b5/484699a1f62ddc38f512100d093c42b4d036549b1a59cea9d76a4e44e1c4/randomtimestamp-2.3-py3-none-any.whl", hash = "sha256:3890844ac6015be5ca8bed18ffe4614aca0641c9f339dcb6fd52e61115292718", size = 6483, upload-time = "2025-06-22T08:07:34.371Z" },
 ]
 
 [[package]]
