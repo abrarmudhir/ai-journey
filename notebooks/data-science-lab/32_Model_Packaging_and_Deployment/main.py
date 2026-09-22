@@ -168,7 +168,7 @@ class PredictOut(PredictIn):
     """
 
     success: bool
-    forecast: dict
+    forecast: dict[str, float]
     message: str
 
 
@@ -225,7 +225,11 @@ def fit_model(request: FitIn) -> FitOut:
     FitOut
         Training result with success status.
     """
-    response = request.model_dump()
+    response = (
+        request.model_dump()
+        if hasattr(request, "model_dump")
+        else request.dict()
+    )
     try:
         model = build_model(
             ticker=request.ticker,
@@ -256,7 +260,11 @@ def predict(request: PredictIn) -> PredictOut:
     PredictOut
         Forecast result with predicted volatilities.
     """
-    response = request.model_dump()
+    response = (
+        request.model_dump()
+        if hasattr(request, "model_dump")
+        else request.dict()
+    )
     try:
         model = build_model(
             ticker=request.ticker,
