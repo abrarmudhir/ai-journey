@@ -30,3 +30,89 @@ Why this matters? The Admissions Quiz difficulty is carefully calibrated to pred
 We want you to succeed! Taking the quiz honestly helps ensure you're ready for the learning journey ahead and will be able to earn your certificate.
 
 Good luck! 🍀
+## Preparation notes
+
+The quiz has 24 questions in 45 minutes: 6 questions in each of four areas. A score of 70% means answering at least **17 questions correctly**. Prepare without a calculator or reference material so practice matches the real quiz.
+
+### 1. Linear algebra
+
+Be able to:
+
+- Distinguish scalars, vectors, and matrices and identify their shapes.
+- Add and subtract objects of matching shape.
+- Compute a dot product: `x . y = sum(x_i * y_i)`.
+- Multiply matrices and check compatibility: `(m x n)(n x p) = (m x p)`.
+- Transpose a matrix and use `(AB)^T = B^T A^T`.
+- Recognize identity matrices, inverses, determinants, singular matrices, vector norms, linear transformations, and small systems of equations.
+
+Common traps: matrix multiplication is generally not commutative; element-wise and matrix multiplication differ; always check dimensions first.
+
+### 2. Calculus
+
+Be able to:
+
+- Interpret a derivative as a rate of change and tangent-line slope.
+- Differentiate constants, powers, sums, products, quotients, and compositions.
+- Apply the chain rule: if `y = f(g(x))`, then `dy/dx = f'(g(x))g'(x)`.
+- Recall derivatives of `x^n`, `e^x`, `ln(x)`, `sin(x)`, and `cos(x)`.
+- Find simple critical points, compute partial derivatives, and interpret the gradient.
+- Understand gradient descent: `theta_new = theta_old - learning_rate * gradient`.
+
+Common traps: include the inner derivative in the chain rule; gradient descent moves opposite the gradient; a zero derivative alone does not prove a minimum.
+
+### 3. Probability and statistics
+
+Be able to:
+
+- Use `P(not A) = 1 - P(A)`.
+- Use `P(A or B) = P(A) + P(B) - P(A and B)`.
+- Use `P(A|B) = P(A and B) / P(B)`.
+- Distinguish independent from mutually exclusive events and apply Bayes' theorem.
+- Calculate and interpret mean, median, mode, range, variance, and standard deviation.
+- Explain outliers, population versus sample, expectation, and correlation.
+- Recognize Bernoulli, binomial, uniform, and normal distributions.
+
+Common traps: independence does not mean events cannot occur together; read the order in `P(A|B)` carefully; variance uses squared units while standard deviation uses the original units.
+
+### 4. Python programming
+
+Be ready to read a short program and predict its output. Review:
+
+- Core types, zero-based and negative indexing, slicing, and mutability.
+- Control flow, functions, return values, default arguments, and scope.
+- Comprehensions, exceptions, classes, `__init__`, attributes, and methods.
+- NumPy shape, dtype, indexing, vectorization, broadcasting, and `axis`.
+- Pandas selection, filtering, missing values, and aggregation.
+
+Examples to evaluate mentally:
+
+```python
+[x * x for x in range(5) if x % 2 == 0]  # [0, 4, 16]
+
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+a.sum(axis=0)  # array([4, 6])
+a.sum(axis=1)  # array([3, 7])
+```
+
+Common traps: `=` assigns while `==` compares; `/` is true division while `//` is floor division; `range` excludes its stop value; no explicit `return` means `None`; NumPy arithmetic is normally element-wise while `@` performs matrix multiplication.
+
+## Readiness check
+
+Before using an attempt, confirm that you can:
+
+- Complete 24 mixed questions in no more than 45 minutes.
+- Consistently score at least 20/24 in practice, leaving a buffer above the required 17/24.
+- Explain every incorrect answer instead of memorizing the correct choice.
+- Perform small matrix, derivative, and probability calculations by hand.
+- Trace Python code accurately, including NumPy shapes and `axis` behavior.
+
+## Suggested preparation plan
+
+1. Take an untimed diagnostic covering all four topics.
+2. Review the weakest topic and work examples by hand.
+3. Drill each topic until the main rules and formulas can be recalled unaided.
+4. Take a closed-book, 45-minute mock quiz with 6 questions per topic.
+5. Review every mistake and consistently exceed the passing score before using an attempt.
+
+During the quiz, average time is about 1 minute 52 seconds per question. Answer quick questions first, mark difficult ones for review, eliminate clearly wrong options, and reserve the final 5 minutes for uncertain answers. Choose a quiet time and confirm that your device, power, and internet connection are reliable before starting.
