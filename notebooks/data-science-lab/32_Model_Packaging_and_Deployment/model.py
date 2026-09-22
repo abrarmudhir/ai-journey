@@ -327,7 +327,11 @@ class GarchModel:
             File path of the saved model.
         """
         os.makedirs(self.model_directory, exist_ok=True)
-        timestamp = datetime.now().isoformat()
+        # Colons from datetime.isoformat() are invalid in Windows
+        # filenames. This format remains chronological and portable.
+        timestamp = datetime.now().strftime(
+            "%Y-%m-%dT%H-%M-%S-%f"
+        )
         filename = os.path.join(
             self.model_directory,
             f"{timestamp}_{self.ticker}.pkl",
