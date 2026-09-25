@@ -28,10 +28,12 @@ dependencies = [
     "scipy-stubs>=1.18.1.1",
     "seaborn>=0.13.2",
     "statsmodels>=0.15.0",
+    "torch>=2.14.0",
     "uvicorn>=0.53.0",
 ]
 
 [dependency-groups]
 dev = [
+    "ipykernel>=7.3.0",
     "pandas-stubs>=3.0.5.260914",
 ]
