@@ -108,3 +108,33 @@ def grade_delta_w_i_h(delta_w_i_h, learnrate, hidden_error_term, x):
         print("✅ Well done! `delta_w_i_h` is correct.")
     else:
         print("❌ Try again. `delta_w_i_h` is not correct.")
+
+
+# ─────────────────────────────────────────────
+#  IMPLEMENT BACKPROPAGATION NOTEBOOK GRADER
+# ─────────────────────────────────────────────
+
+def grade_implement_backprop(weights_input_hidden, weights_hidden_output,
+                              features_test, targets_test, threshold=0.70):
+    """
+    Grade the full backpropagation implementation by evaluating
+    test-set accuracy of the trained weights.
+
+    Parameters
+    ----------
+    weights_input_hidden  : trained input→hidden weight matrix
+    weights_hidden_output : trained hidden→output weight vector
+    features_test         : test feature DataFrame / array
+    targets_test          : test target Series / array
+    threshold             : minimum accuracy to pass (default 0.70)
+    """
+    hidden = sigmoid(np.dot(features_test, weights_input_hidden))
+    out = sigmoid(np.dot(hidden, weights_hidden_output))
+    predictions = out > 0.5
+    accuracy = np.mean(predictions == targets_test)
+    print(f"Prediction accuracy: {accuracy:.3f}")
+    if accuracy > threshold:
+        print("✅ Nice job! Your backpropagation implementation is correct.")
+    else:
+        print(f"❌ Accuracy too low ({accuracy:.3f} < {threshold}). "
+              "Check your forward pass, error terms, and weight update steps.")
