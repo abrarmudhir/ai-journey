@@ -29,10 +29,18 @@ dependencies = [
     "scipy-stubs>=1.18.1.1",
     "seaborn>=0.13.2",
     "statsmodels>=0.15.0",
-    "torch>=2.14.0",
-    "torchvision>=0.29.1",
+    "torch==2.11.0+cu128",
+    "torchvision==0.26.0",
     "uvicorn>=0.53.0",
 ]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
 
 [dependency-groups]
 dev = [
