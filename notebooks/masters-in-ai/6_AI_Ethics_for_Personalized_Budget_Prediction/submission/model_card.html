@@ -1,0 +1,80 @@
+
+<html>
+  <head>
+  </head>
+  <body>
+  <center><h1>Model Card - IDOOU AI Budget Predicter</h1></center>
+  <h2>Model Details</h2>
+  
+<br>-- Budget Predictor AI is a binary classification model that estimates whether a user's activity budget is below or above $300.
+<br>-- The baseline is Logistic Regression using one-hot encoded user and activity features.
+<br>-- It supports activity recommendations, not financial eligibility or credit decisions.
+
+  <h2>Intended Use</h2>
+  
+<br>-- Suggest activities compatible with the user's expected budget and preferences.
+<br>-- Show predictions with limitations and allow users to edit, reject, or confirm them.
+<br>-- Minimize sensitive-data collection and retain human oversight.
+<br>-- Do not use for lending, insurance, employment, pricing, or access decisions.
+
+  <h2>Factors</h2>
+  
+<br>-- Target: budget below $300 or at least $300.
+<br>-- Features include age bands, gender, education, children, and recommended activity.
+<br>-- Education is a potential socioeconomic proxy and is evaluated for fairness.
+
+  <h2>Metrics</h2>
+  
+<br>-- Report accuracy, balanced accuracy, confusion matrices, and AIF360 fairness metrics.
+<br>-- Assess interpretability with permutation importance using balanced accuracy.
+
+  <h2> Training Data </h2>
+  
+<br>-- The cleaned dataset contains 103,459 records from 300,000 synthetic records.
+<br>-- Splits: 51,729 training, 31,038 validation, and 20,692 test records.
+
+  <h2> Evaluation Data </h2>
+  
+<br>-- The held-out test set contains 20,692 records.
+<br>-- Validation selects thresholds; test data is reserved for final performance and fairness reporting.
+
+  <h2>Quantitative Analysis</h2>
+  
+<br>-- Before mitigation: accuracy 0.998, balanced accuracy 0.998, average odds difference -0.528, statistical parity difference -0.993, equal opportunity difference -1.000, and Theil index 0.002.
+<br>-- After Reweighing: accuracy 0.991, balanced accuracy 0.983, average odds difference -0.011, statistical parity difference -0.952, equal opportunity difference 0.000, and Theil index 0.003.
+<br>-- Reweighing improves fairness but does not eliminate structural disparity; use the mitigated model only with user confirmation, monitoring, and subgroup evaluation.
+
+  
+  <br/><br/><b>Results of the AI model after applying the bias mitigation strategy</b><br/>
+  
+  <center>
+  
+  <img src="images/01_group_representation.png" alt="Group representation"><br/>
+  <img src="images/05_model_accuracy_comparison.png" alt="Model accuracy comparison"><br/>
+  <img src="images/08_mitigated_confusion_matrix.png" alt="Mitigated confusion matrix"><br/>
+  <img src="images/09_permutation_importance_after.png" alt="Post-mitigation permutation importance"><br/>
+  <img src="images/10_education_cohort_performance.png" alt="Education cohort performance"><br/>
+
+  </center>
+
+  <h2>Ethical Considerations</h2>
+  
+<br>-- Keep users in the loop with editable inputs, visible uncertainty, and confirmation before recommendations are acted on.
+<br>-- Missing data, education filtering, and strong education-label correlation create inclusiveness and socioeconomic-proxy risks.
+<br>-- Reweighing improves some fairness metrics, but unequal errors and potential stereotyping require ongoing monitoring.
+
+  <h2>Caveats and Recommendations</h2>
+  
+<br>-- The synthetic, incomplete dataset over-represents some groups and excludes selected education categories.
+<br>-- Imbalanced outcomes and strong education signals may produce unequal false positives and false negatives.
+<br>-- Further ethical AI analyses: intersectional testing, threshold sensitivity, stakeholder review, calibration, drift, and subgroup monitoring.
+
+  <h2>Business Consequences</h2>
+  
+
+<br>-- Positive Impact: Reduce planning effort and suggest activities within users' budgets.
+
+<br>-- Negative Impact: Biased recommendations may reduce trust, engagement, revenue, adoption, and reputation, while creating ethical and regulatory risk.
+
+  </body>
+</html>
