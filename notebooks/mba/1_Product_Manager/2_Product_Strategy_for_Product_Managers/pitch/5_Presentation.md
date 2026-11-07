@@ -94,3 +94,27 @@ External research used in the deck:
 - LinkedIn Economic Graph, **The Skills Signal Report 2025**, used for skills-based positioning: <https://economicgraph.linkedin.com/content/dam/me/business/en-us/talent-solutions/resources/pdfs/the-skills-signal-report-2025.pdf>
 
 Model assumptions clearly labelled in the deck and transcript: the ten-million first wedge, one-million invited members, one-hundred-thousand base activated members, sixty-dollar annual net revenue per activated member, six-million-dollar investment, activation and retention gates, first-year outcome targets and partner counts. These are classroom business-case hypotheses to validate in discovery, not forecasts or historical results.
+
+## Updated narration for the revised slides
+
+Use the following wording when presenting the revised Opportunity, Competitors and Partners and Go-to-Market slides. Keep the pauses deliberate and use the slide as visual support rather than reading every bullet.
+
+### Slide 5 - Opportunity
+
+"The market is large, but the first wedge is deliberately small. LinkedIn reported 1.2 billion members in its 2025 business highlights. Using the classroom assumption of sixty dollars in annual net revenue per member, that implies a modeled TAM of seventy-two billion dollars. This is a model, not observed market revenue. [Pause]
+
+We will not target everyone. We will start with ten million mid-career professionals in the UK, US and Canada. In year one, we invite one million members and aim to activate one hundred thousand, which would represent six million dollars of modeled revenue. Coursera's 197 million registered learners provide adjacent evidence that people will use career-linked learning."
+
+### Slide 11 - LinkedIn Learning and Udemy
+
+"Two adjacent products validate demand, but each leaves a gap. LinkedIn Learning offers video courses and assessments, skill recommendations, certificates and badges, and enterprise learning plans. Udemy Business offers a broad course marketplace, practice and assessments, technical content and enterprise analytics.
+
+Those are useful capabilities. Pathways adds the missing layer: a target-role plan, live labour-market context, network actions and verified proof of work. That is the difference between a course catalogue and a measurable career plan."
+
+### Slide 18 - Partners and Go-to-Market
+
+"We launch narrowly with fifty employer design partners and one million invited members. Learning providers supply relevant courses and credentials. Employers provide role signals and pilot cohorts. Credential partners verify proof of work.
+
+Once the member loop works, we can expand into employer-sponsored plans, internal mobility and career transitions. The decision today is focused: fund discovery and return with a tested MVP gate in ninety days."
+
+These three updated sections supersede the earlier wording for Slides 5, 11 and 18. On Slide 18, use the revised title **Partners and go-to-market** and keep the final sentence as the executive decision ask.
