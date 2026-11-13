@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:03,615
+While there may be some really cool ideas that come up in a sprint,
+
+2
+00:00:03,615 --> 00:00:06,630
+you'll need to select one to move forward with.
+
+3
+00:00:06,630 --> 00:00:10,485
+There's always going to be trade-offs to be made when building products.
+
+4
+00:00:10,485 --> 00:00:14,580
+Using a decision matrix is an easy way to visualize the tradeoffs,
+
+5
+00:00:14,580 --> 00:00:17,610
+have different ideas against specific criteria.
+
+6
+00:00:17,610 --> 00:00:21,660
+You'll go through this exercise together as a team and discuss and
+
+7
+00:00:21,660 --> 00:00:26,025
+agree on where each idea falls against the criteria that you've selected.
+
+8
+00:00:26,025 --> 00:00:29,820
+Most commonly, the criteria is value versus effort,
+
+9
+00:00:29,820 --> 00:00:34,730
+but it's possible to further define these into more specific criteria.
+
+10
+00:00:34,730 --> 00:00:37,010
+For example, new users,
+
+11
+00:00:37,010 --> 00:00:38,525
+reduction in user pain,
+
+12
+00:00:38,525 --> 00:00:43,130
+or competitive advantage for value and things like time,
+
+13
+00:00:43,130 --> 00:00:46,955
+cost and dependencies on other teams for effort.
+
+14
+00:00:46,955 --> 00:00:50,915
+Here's an example of what a decision matrix looks like.
+
+15
+00:00:50,915 --> 00:00:57,140
+Along the x-axis you have user value and along the y-axis you have effort.
+
+16
+00:00:57,140 --> 00:01:00,620
+Each quadrant then represents a different combination of
+
+17
+00:01:00,620 --> 00:01:05,570
+user value for the given idea and the effort required to build it.
+
+18
+00:01:05,570 --> 00:01:10,115
+The lower left quadrant is low value low effort.
+
+19
+00:01:10,115 --> 00:01:15,425
+Ideas that fall here don't provide a ton of user value but,
+
+20
+00:01:15,425 --> 00:01:18,635
+they also don't require a ton of effort to build either.
+
+21
+00:01:18,635 --> 00:01:25,670
+An example of an idea that would fall into this category is the Facebook poke feature.
+
+22
+00:01:25,670 --> 00:01:27,620
+It's a really simple feature,
+
+23
+00:01:27,620 --> 00:01:31,565
+but it didn't really produce a lot of value for users.
+
+24
+00:01:31,565 --> 00:01:35,915
+The upper left quadrant is low value high effort.
+
+25
+00:01:35,915 --> 00:01:39,835
+Ideas here don't provide a ton of user value,
+
+26
+00:01:39,835 --> 00:01:43,265
+but they require a ton of effort to build.
+
+27
+00:01:43,265 --> 00:01:48,140
+Usually, it doesn't make sense to pursue these ideas and they should be avoided.
+
+28
+00:01:48,140 --> 00:01:52,870
+An example of an idea that would fall into this category is juice seller.
+
+29
+00:01:52,870 --> 00:01:56,030
+You might have heard of this startup but they built
+
+30
+00:01:56,030 --> 00:02:00,665
+a $400 internet-connected machine for cold pressing juice.
+
+31
+00:02:00,665 --> 00:02:04,610
+You'd subscribe to a monthly plan and get juice packs delivered,
+
+32
+00:02:04,610 --> 00:02:07,840
+then you'd put them into the machine and it would press the juice out.
+
+33
+00:02:07,840 --> 00:02:13,865
+However, users quickly found out that eventually the machine wasn't even really needed.
+
+34
+00:02:13,865 --> 00:02:17,210
+You could just use your hands to squeeze the juice out of the packs.
+
+35
+00:02:17,210 --> 00:02:20,300
+It was a pointless product that didn't solve a real need for
+
+36
+00:02:20,300 --> 00:02:23,780
+users and eventually the company shut down as a result.
+
+37
+00:02:23,780 --> 00:02:25,525
+You don't want to do this,
+
+38
+00:02:25,525 --> 00:02:28,100
+you definitely don't want to build this type of product.
+
+39
+00:02:28,100 --> 00:02:30,485
+So try to avoid these ideas.
+
+40
+00:02:30,485 --> 00:02:34,925
+The lower right quadrant is high value low effort.
+
+41
+00:02:34,925 --> 00:02:40,460
+Ideas here provide lots of user value and don't require a ton of effort to build.
+
+42
+00:02:40,460 --> 00:02:44,060
+These types of ideas are usually worth investing in,
+
+43
+00:02:44,060 --> 00:02:48,650
+but keep in mind that if it doesn't take you a lot of effort to build,
+
+44
+00:02:48,650 --> 00:02:52,655
+it likely won't take other companies a ton of effort to build either.
+
+45
+00:02:52,655 --> 00:02:57,020
+An example of an idea that fits into this category is banks offering
+
+46
+00:02:57,020 --> 00:03:01,700
+the ability for you to toggle your debit or credit card on and off through their app.
+
+47
+00:03:01,700 --> 00:03:04,160
+This provides you with the flexibility to
+
+48
+00:03:04,160 --> 00:03:06,680
+disable your card if you think you might have lost it,
+
+49
+00:03:06,680 --> 00:03:11,630
+or if you want to prevent it from being used without having to call and cancel the card.
+
+50
+00:03:11,630 --> 00:03:16,780
+You can then easily re-enable it when you find it or you're ready to make a purchase.
+
+51
+00:03:16,780 --> 00:03:21,260
+The upper right quadrant is high value high effort.
+
+52
+00:03:21,260 --> 00:03:27,080
+Ideas here provide tons of user value but also require a lot of effort to build.
+
+53
+00:03:27,080 --> 00:03:31,420
+This is another area where it's worth investing in these types of ideas.
+
+54
+00:03:31,420 --> 00:03:34,440
+An example would be Gmail.
+
+55
+00:03:34,440 --> 00:03:36,430
+When Gmail first launched,
+
+56
+00:03:36,430 --> 00:03:40,490
+it provided a crazy amount of storage for free.
+
+57
+00:03:40,490 --> 00:03:45,830
+Gmail also has an amazing spam filtering system to keep unwanted messages out of
+
+58
+00:03:45,830 --> 00:03:50,929
+your inbox and it introduced a new mental model for how to organize,
+
+59
+00:03:50,929 --> 00:03:54,845
+store and find your emails through labeling, archiving and searching.
+
+60
+00:03:54,845 --> 00:03:58,475
+Each one of those things is a massive undertaking.
+
+61
+00:03:58,475 --> 00:04:00,650
+After going through this exercise,
+
+62
+00:04:00,650 --> 00:04:04,325
+you might find some ideas that are high value low effort,
+
+63
+00:04:04,325 --> 00:04:07,460
+or high value high effort.
+
+64
+00:04:07,460 --> 00:04:10,955
+These are the best types of ideas that are worth pursuing.
+
+65
+00:04:10,955 --> 00:04:15,650
+You might also find some ideas that are low value low effort and
+
+66
+00:04:15,650 --> 00:04:18,020
+sometimes it can be worth pursuing these ideas if
+
+67
+00:04:18,020 --> 00:04:21,065
+there's nothing more impactful that the team can be doing.
+
+68
+00:04:21,065 --> 00:04:26,840
+Lastly, you might find some ideas that are low value high effort ideas.
+
+69
+00:04:26,840 --> 00:04:31,040
+Generally, it will never make sense to pursue those types of ideas.
+
+70
+00:04:31,040 --> 00:04:34,370
+Remember just because you don't pursue an idea right
+
+71
+00:04:34,370 --> 00:04:39,120
+now doesn't mean that you can't pursue it at some point in the future.
+
