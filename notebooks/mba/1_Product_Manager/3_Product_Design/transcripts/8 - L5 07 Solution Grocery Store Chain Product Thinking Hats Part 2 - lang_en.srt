@@ -1,0 +1,256 @@
+1
+00:00:00,000 --> 00:00:02,970
+So now it's time to take off the white hat,
+
+2
+00:00:02,970 --> 00:00:10,260
+and I'm going to put on this lovely bright green hat which represents creativity.
+
+3
+00:00:10,260 --> 00:00:16,965
+So the goals here are really to think through new ideas or alternative viewpoints,
+
+4
+00:00:16,965 --> 00:00:19,560
+and so some of the things that would be interesting
+
+5
+00:00:19,560 --> 00:00:22,170
+to think about and have a conversation here are
+
+6
+00:00:22,170 --> 00:00:27,570
+really around this tension between digital experiences and in-store experiences.
+
+7
+00:00:27,570 --> 00:00:29,430
+How are they similar?
+
+8
+00:00:29,430 --> 00:00:30,705
+How are they different?
+
+9
+00:00:30,705 --> 00:00:36,795
+Are there certain experiences or products that are better suited for one versus another?
+
+10
+00:00:36,795 --> 00:00:41,040
+So another question that's also really interesting to think about
+
+11
+00:00:41,040 --> 00:00:45,335
+here is we are a big traditional grocery store chain.
+
+12
+00:00:45,335 --> 00:00:48,700
+Does it even make sense for us to build an app?
+
+13
+00:00:48,700 --> 00:00:53,750
+What are some of the features if we did decide to build an app that would make sense?
+
+14
+00:00:53,750 --> 00:00:58,780
+Things like purchasing potentially like incorporating a loyalty program,
+
+15
+00:00:58,780 --> 00:01:05,465
+potentially having some type of discount available for customers who are using the app.
+
+16
+00:01:05,465 --> 00:01:08,560
+What like going back to our traditional routes,
+
+17
+00:01:08,560 --> 00:01:11,210
+like what about the in-store experience?
+
+18
+00:01:11,210 --> 00:01:13,910
+Are there areas there that we can improve since
+
+19
+00:01:13,910 --> 00:01:17,215
+that's where we have a lot of expertise over the years?
+
+20
+00:01:17,215 --> 00:01:20,030
+One thing to think about is like what should the interaction
+
+21
+00:01:20,030 --> 00:01:22,670
+of purchasing an item actually look like?
+
+22
+00:01:22,670 --> 00:01:26,630
+We saw that self checkout was a really really big innovation.
+
+23
+00:01:26,630 --> 00:01:28,610
+How can we actually take something like
+
+24
+00:01:28,610 --> 00:01:31,640
+self checkout to the next level where we're pulling in
+
+25
+00:01:31,640 --> 00:01:37,030
+technology into our business and creating these delightful experiences for users?
+
+26
+00:01:37,030 --> 00:01:40,025
+All right, so it's time to switch up the hats again.
+
+27
+00:01:40,025 --> 00:01:46,235
+So the green hats coming off and the yellow hat is going on.
+
+28
+00:01:46,235 --> 00:01:49,355
+So when we're wearing the yellow hat,
+
+29
+00:01:49,355 --> 00:01:56,370
+we're going to be talking about benefits or why things can help solve problems.
+
+30
+00:01:56,370 --> 00:01:58,840
+So we're going to do this one-by-one
+
+31
+00:01:58,840 --> 00:02:01,955
+for all of the different ideas that we're evaluating.
+
+32
+00:02:01,955 --> 00:02:04,945
+So when we're thinking through the navigate concept,
+
+33
+00:02:04,945 --> 00:02:08,320
+the benefits here that it makes it super super simple
+
+34
+00:02:08,320 --> 00:02:12,455
+for people to find items that they're looking for in the store.
+
+35
+00:02:12,455 --> 00:02:17,770
+There's also this high-tech factor to it where there's this wow moment of like wow,
+
+36
+00:02:17,770 --> 00:02:22,450
+you can actually get turn-by-turn directions inside our grocery stores.
+
+37
+00:02:22,450 --> 00:02:26,825
+Very similar to what you would get with driving directions, for example.
+
+38
+00:02:26,825 --> 00:02:31,045
+Now, let's talk a little bit about some of the benefits for suggestions.
+
+39
+00:02:31,045 --> 00:02:34,120
+So suggestions are also something that can be super-helpful to
+
+40
+00:02:34,120 --> 00:02:37,660
+surface products that we know consumers will enjoy.
+
+41
+00:02:37,660 --> 00:02:40,840
+It's also something that can be really really helpful if
+
+42
+00:02:40,840 --> 00:02:44,545
+consumers forgot to purchase a specific product.
+
+43
+00:02:44,545 --> 00:02:47,530
+I don't know if any of you have ever purchase a product and then
+
+44
+00:02:47,530 --> 00:02:50,885
+realize once you got home that it didn't include batteries,
+
+45
+00:02:50,885 --> 00:02:53,470
+something like this would help solve that problem.
+
+46
+00:02:53,470 --> 00:02:58,310
+I think that it's something that we could build in a super simple way with
+
+47
+00:02:58,310 --> 00:03:03,350
+a very very lightweight interaction that would be very effective for our customers.
+
+48
+00:03:03,350 --> 00:03:06,455
+So now we're going to walk through the benefits for auto-pilot.
+
+49
+00:03:06,455 --> 00:03:10,279
+So one of the biggest benefits here is that it removes
+
+50
+00:03:10,279 --> 00:03:13,865
+the need for customers to manage or create their own shopping lists.
+
+51
+00:03:13,865 --> 00:03:17,270
+So we're actually like giving time back to our customers because
+
+52
+00:03:17,270 --> 00:03:18,845
+we're taking something off their plate
+
+53
+00:03:18,845 --> 00:03:21,070
+that they are not going to have to worry about anymore.
+
+54
+00:03:21,070 --> 00:03:23,960
+It's also something that provides a lot
+
+55
+00:03:23,960 --> 00:03:27,950
+of flexibility in terms of really meeting customers where they are,
+
+56
+00:03:27,950 --> 00:03:32,375
+whether that's if they want to do store pickup because they're already out and about,
+
+57
+00:03:32,375 --> 00:03:35,210
+or if they really would just prefer having delivery at
+
+58
+00:03:35,210 --> 00:03:39,305
+home and avoiding a trip to the grocery store altogether.
+
+59
+00:03:39,305 --> 00:03:43,100
+Another really cool thing is that we can have
+
+60
+00:03:43,100 --> 00:03:45,740
+a flexible reordering system that
+
+61
+00:03:45,740 --> 00:03:48,810
+has the potential to actually be based on real purchase data,
+
+62
+00:03:48,810 --> 00:03:53,750
+so that we can actually predict when a particular customer is going to
+
+63
+00:03:53,750 --> 00:03:55,880
+need a new roll of paper towels
+
+64
+00:03:55,880 --> 00:03:59,940
+based on how frequently they bought paper towels in the past.
+

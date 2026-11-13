@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:03,270
+We just finished the fourth phase of the design sprint.
+
+2
+00:00:03,270 --> 00:00:06,900
+Deciding, at this point you should be able to describe
+
+3
+00:00:06,900 --> 00:00:10,350
+the defined phase of the design sprint and explain how you can use
+
+4
+00:00:10,350 --> 00:00:14,190
+decision-making methods to narrow down your idea and ultimately
+
+5
+00:00:14,190 --> 00:00:18,585
+pick one idea to move forward into prototyping with.
+
+6
+00:00:18,585 --> 00:00:21,750
+We discussed a few different methods that you can use to help
+
+7
+00:00:21,750 --> 00:00:25,380
+facilitate and align the sprint team on deciding,
+
+8
+00:00:25,380 --> 00:00:28,185
+including things like identifying assumptions
+
+9
+00:00:28,185 --> 00:00:31,650
+behind ideas and then formulating questions about them
+
+10
+00:00:31,650 --> 00:00:34,620
+to make sure that you're avoiding preexisting bias
+
+11
+00:00:34,620 --> 00:00:38,445
+as well as stretching your thinking to consider alternative views.
+
+12
+00:00:38,445 --> 00:00:42,950
+We also talked about how you can create a decision matrix to compare all of
+
+13
+00:00:42,950 --> 00:00:48,380
+your ideas to each other against a set of criteria like value and effort.
+
+14
+00:00:48,380 --> 00:00:50,720
+We also talked about how you can represent
+
+15
+00:00:50,720 --> 00:00:54,095
+different perspectives from a wider audience using Thinking Hats.
+
+16
+00:00:54,095 --> 00:00:57,920
+You can use this method to structure a conversation for the team to make
+
+17
+00:00:57,920 --> 00:01:02,150
+sure that you're bringing in a variety of different perspectives for each idea.
+
+18
+00:01:02,150 --> 00:01:05,675
+Keep in mind that if there's no clear idea that comes forth,
+
+19
+00:01:05,675 --> 00:01:09,380
+you can also use the dot-voting method to more explicitly asked
+
+20
+00:01:09,380 --> 00:01:13,940
+the team to vote for an idea that each person who thinks it's the most promising.
+
+21
+00:01:13,940 --> 00:01:16,325
+Now that the team selected an idea,
+
+22
+00:01:16,325 --> 00:01:20,815
+it's time to go on to phase five of the design sprint where you'll build a prototype.
+
+23
+00:01:20,815 --> 00:01:25,710
+This is where it starts to get super exciting and your idea is going to come to life.
+

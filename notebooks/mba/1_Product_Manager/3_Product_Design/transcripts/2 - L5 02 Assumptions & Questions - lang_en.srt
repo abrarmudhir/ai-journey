@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:02,970
+Checking assumptions and asking questions is
+
+2
+00:00:02,970 --> 00:00:06,165
+a great follow on after solution sketches had been presented.
+
+3
+00:00:06,165 --> 00:00:10,860
+It's super easy to get caught in a specific way of thinking or train of thought.
+
+4
+00:00:10,860 --> 00:00:13,005
+In order to combat this,
+
+5
+00:00:13,005 --> 00:00:15,780
+we'll identify and question assumptions.
+
+6
+00:00:15,780 --> 00:00:20,480
+Go through each sketch and take a few moments to list out assumptions as a group,
+
+7
+00:00:20,480 --> 00:00:24,000
+then create questions using those assumptions
+
+8
+00:00:24,000 --> 00:00:28,395
+which will force you to consider possibilities you might not have otherwise considered.
+
+9
+00:00:28,395 --> 00:00:32,265
+Are things actually necessary or are we just accustomed to them?
+
+10
+00:00:32,265 --> 00:00:35,820
+Here are some examples of assumptions and questions.
+
+11
+00:00:35,820 --> 00:00:37,670
+Let's look at a telephone.
+
+12
+00:00:37,670 --> 00:00:39,245
+About a decade ago,
+
+13
+00:00:39,245 --> 00:00:42,830
+an assumption would have been that a telephone has to have buttons.
+
+14
+00:00:42,830 --> 00:00:45,380
+But if we question that assumption,
+
+15
+00:00:45,380 --> 00:00:47,975
+we would ask, does a phone really need buttons?
+
+16
+00:00:47,975 --> 00:00:50,410
+Or what if there were no buttons on a phone?
+
+17
+00:00:50,410 --> 00:00:52,880
+It's this type of thinking that got us to
+
+18
+00:00:52,880 --> 00:00:56,225
+touchscreens where buttons are actually rendered through software.
+
+19
+00:00:56,225 --> 00:00:58,775
+Another example would be shoes.
+
+20
+00:00:58,775 --> 00:01:01,835
+The assumption is that shoes have laces,
+
+21
+00:01:01,835 --> 00:01:04,030
+but if we question that,
+
+22
+00:01:04,030 --> 00:01:06,630
+what if shoes didn't have laces?
+
+23
+00:01:06,630 --> 00:01:10,400
+If we look at software in general a couple of decades ago,
+
+24
+00:01:10,400 --> 00:01:14,420
+a common assumption is that you have to have a save button in order
+
+25
+00:01:14,420 --> 00:01:18,910
+to save your work in progress for pretty much every type of application.
+
+26
+00:01:18,910 --> 00:01:21,119
+But if we question that assumption,
+
+27
+00:01:21,119 --> 00:01:23,190
+what if there was no save button?
+
+28
+00:01:23,190 --> 00:01:26,120
+You'll have noticed that a number of software products over
+
+29
+00:01:26,120 --> 00:01:30,415
+the years no longer require users to explicitly hit a save button.
+
+30
+00:01:30,415 --> 00:01:34,445
+Instead, they're constantly saving the progress that a user makes.
+
+31
+00:01:34,445 --> 00:01:38,675
+We just walked through a few examples of assumptions and how you can question them.
+
+32
+00:01:38,675 --> 00:01:42,740
+Sometimes, questioning an assumption might feel a little bit crazy,
+
+33
+00:01:42,740 --> 00:01:45,500
+but oftentimes, it can lead to good innovation.
+
+34
+00:01:45,500 --> 00:01:49,640
+After you've gone through assumptions and questions for each solution sketch,
+
+35
+00:01:49,640 --> 00:01:53,120
+you'll want to identify common assumptions and questions.
+
+36
+00:01:53,120 --> 00:01:54,920
+You should make a special note of
+
+37
+00:01:54,920 --> 00:01:57,170
+those overlapping questions to make
+
+38
+00:01:57,170 --> 00:02:00,810
+sure that you answer them during the validation phase.
+
