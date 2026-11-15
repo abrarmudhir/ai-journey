@@ -1,0 +1,328 @@
+1
+00:00:00,000 --> 00:00:02,985
+A test plan is a document that outlines
+
+2
+00:00:02,985 --> 00:00:06,495
+all aspects that are required to complete testing.
+
+3
+00:00:06,495 --> 00:00:09,299
+This generally includes the objective,
+
+4
+00:00:09,299 --> 00:00:11,985
+scope and features to be tested.
+
+5
+00:00:11,985 --> 00:00:16,365
+You'll work with the QA team to put this plan together.
+
+6
+00:00:16,365 --> 00:00:21,960
+They'll also usually include additional information related to the testing strategy,
+
+7
+00:00:21,960 --> 00:00:25,095
+resourcing, timelines, and more.
+
+8
+00:00:25,095 --> 00:00:30,215
+You'll collaborate most closely with them on defining the test cases.
+
+9
+00:00:30,215 --> 00:00:32,930
+A test case describes a feature,
+
+10
+00:00:32,930 --> 00:00:34,925
+how to use it or test it,
+
+11
+00:00:34,925 --> 00:00:37,040
+and the expected behavior.
+
+12
+00:00:37,040 --> 00:00:41,060
+You may be asked to write the test cases or review them,
+
+13
+00:00:41,060 --> 00:00:44,275
+depending on how your QA team is set up.
+
+14
+00:00:44,275 --> 00:00:47,860
+Test cases usually map to requirements,
+
+15
+00:00:47,860 --> 00:00:52,670
+which are generally broken into functional and non-functional requirements.
+
+16
+00:00:52,670 --> 00:00:58,160
+A functional requirement defines a function of a system or its component where
+
+17
+00:00:58,160 --> 00:01:04,310
+a function is described as a specification of behavior between inputs and outputs.
+
+18
+00:01:04,310 --> 00:01:07,850
+Another way to think about this is that
+
+19
+00:01:07,850 --> 00:01:13,490
+a functional requirement describes what the user does and how the product should react.
+
+20
+00:01:13,490 --> 00:01:17,960
+Whereas a non-functional requirement specifies criteria that can be
+
+21
+00:01:17,960 --> 00:01:22,985
+used to judge the operation of a system rather than specific behaviors.
+
+22
+00:01:22,985 --> 00:01:27,185
+Non-functional requirements describe how the system should work,
+
+23
+00:01:27,185 --> 00:01:29,030
+not what it does.
+
+24
+00:01:29,030 --> 00:01:31,085
+Let's walk through an example.
+
+25
+00:01:31,085 --> 00:01:33,425
+Here's a functional requirement.
+
+26
+00:01:33,425 --> 00:01:38,415
+After the user places an order a confirmation email is sent.
+
+27
+00:01:38,415 --> 00:01:43,670
+In this case, the user is doing something which is placing an order,
+
+28
+00:01:43,670 --> 00:01:48,385
+and the system reacts based on that by sending a confirmation email to the user.
+
+29
+00:01:48,385 --> 00:01:52,370
+A related non-functional requirement would be that
+
+30
+00:01:52,370 --> 00:01:57,500
+the confirmation email is sent within one minute of the order being placed.
+
+31
+00:01:57,500 --> 00:02:02,720
+In this case, the requirement is describing how the system must do something,
+
+32
+00:02:02,720 --> 00:02:04,880
+but not what it must do.
+
+33
+00:02:04,880 --> 00:02:10,385
+Functional and non-functional requirements are the basis for creating test cases.
+
+34
+00:02:10,385 --> 00:02:12,890
+A test case includes a feature,
+
+35
+00:02:12,890 --> 00:02:15,545
+the steps a user would take,
+
+36
+00:02:15,545 --> 00:02:19,565
+the expected behavior, and our priority.
+
+37
+00:02:19,565 --> 00:02:23,455
+Depending on the complexity of what's being tested,
+
+38
+00:02:23,455 --> 00:02:29,075
+a test case may also include other prerequisites or test data.
+
+39
+00:02:29,075 --> 00:02:31,280
+But basically at its core,
+
+40
+00:02:31,280 --> 00:02:34,970
+the test case outlines how to trigger the feature,
+
+41
+00:02:34,970 --> 00:02:37,085
+how the feature should respond,
+
+42
+00:02:37,085 --> 00:02:41,045
+and the priority of how important it is to test this case.
+
+43
+00:02:41,045 --> 00:02:45,275
+The QA team is one of your key partners and they play
+
+44
+00:02:45,275 --> 00:02:50,135
+an important role in making sure you build and ship high-quality products.
+
+45
+00:02:50,135 --> 00:02:54,790
+Here are a couple of things to keep in mind when working with the QA team.
+
+46
+00:02:54,790 --> 00:02:57,590
+Communication is key.
+
+47
+00:02:57,590 --> 00:03:03,080
+Many times I've seen issues arise because of miscommunication and lack of clarity.
+
+48
+00:03:03,080 --> 00:03:05,030
+When working with QA,
+
+49
+00:03:05,030 --> 00:03:07,480
+it's important to over-communicate.
+
+50
+00:03:07,480 --> 00:03:10,310
+This helps to make sure that everyone is on
+
+51
+00:03:10,310 --> 00:03:14,930
+the same page and has a shared understanding of expected behavior,
+
+52
+00:03:14,930 --> 00:03:18,980
+priorities, timelines, or anything else.
+
+53
+00:03:18,980 --> 00:03:21,595
+That leads me to the next thing.
+
+54
+00:03:21,595 --> 00:03:26,930
+Timelines. You may think you know how long it will take to test something,
+
+55
+00:03:26,930 --> 00:03:30,395
+but you likely don't have the full picture.
+
+56
+00:03:30,395 --> 00:03:36,640
+Let QA drive the timelines for how long it'll take to fully test a feature or product.
+
+57
+00:03:36,640 --> 00:03:40,625
+Also, keep in mind that as you get closer to launch,
+
+58
+00:03:40,625 --> 00:03:45,395
+there will likely be last-minute changes and pressure to meet deadlines.
+
+59
+00:03:45,395 --> 00:03:49,900
+QA teams are often working in this stressful environment.
+
+60
+00:03:49,900 --> 00:03:54,995
+It's important to acknowledge this and identify how you can help to de-risk.
+
+61
+00:03:54,995 --> 00:03:59,965
+You want to make things as easy as possible for your QA team.
+
+62
+00:03:59,965 --> 00:04:05,840
+One major way that you can help to de-risk QA is through early involvement.
+
+63
+00:04:05,840 --> 00:04:11,720
+This means involving the QA team early on before the product is built.
+
+64
+00:04:11,720 --> 00:04:19,595
+A great time to reach out to QA is when the PRD is complete and handed off to the team.
+
+65
+00:04:19,595 --> 00:04:23,515
+This gives QA the opportunity to review the feature,
+
+66
+00:04:23,515 --> 00:04:28,925
+ask questions, and likely identify edge cases that you haven't thought of.
+
+67
+00:04:28,925 --> 00:04:35,125
+You can then update your PRD to include the correct behavior for those edge cases.
+
+68
+00:04:35,125 --> 00:04:41,395
+Quality assurance is a shared responsibility and doesn't belong to just the QA team.
+
+69
+00:04:41,395 --> 00:04:45,460
+You should also think through how to test your product and
+
+70
+00:04:45,460 --> 00:04:49,885
+involve the engineering team to help identify possible edge cases.
+
+71
+00:04:49,885 --> 00:04:55,560
+Lastly, I promise you that you will run into issues and problems.
+
+72
+00:04:55,560 --> 00:04:58,070
+It's okay. It happens.
+
+73
+00:04:58,070 --> 00:05:02,020
+The important thing is to not place blame on anyone.
+
+74
+00:05:02,020 --> 00:05:05,270
+Instead, focus on resolving issues and
+
+75
+00:05:05,270 --> 00:05:09,145
+learning from the mistakes so that they're not repeated the next time.
+
+76
+00:05:09,145 --> 00:05:12,515
+What happens when issues are found during QA?
+
+77
+00:05:12,515 --> 00:05:15,964
+Well, once testing has been completed,
+
+78
+00:05:15,964 --> 00:05:21,470
+you will get a report back of all the test cases and if they passed or failed.
+
+79
+00:05:21,470 --> 00:05:24,080
+For any test cases that failed,
+
+80
+00:05:24,080 --> 00:05:28,355
+you'll want to make sure to create a new task to track each other.
+
+81
+00:05:28,355 --> 00:05:31,810
+Often, the QA team will create these tasks for you.
+
+82
+00:05:31,810 --> 00:05:36,930
+However, you will need to review and prioritize them.
+

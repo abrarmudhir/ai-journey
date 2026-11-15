@@ -1,0 +1,292 @@
+1
+00:00:00,000 --> 00:00:04,290
+Imagine if you could make $100 in an hour,
+
+2
+00:00:04,290 --> 00:00:07,410
+or a $1,000 in an hour,
+
+3
+00:00:07,410 --> 00:00:09,435
+which would you choose?
+
+4
+00:00:09,435 --> 00:00:13,605
+I choose the $1,000 because for the same amount of time,
+
+5
+00:00:13,605 --> 00:00:15,360
+I would make more money.
+
+6
+00:00:15,360 --> 00:00:18,015
+Similarly in product management,
+
+7
+00:00:18,015 --> 00:00:22,755
+with limited resources, we want to build things that provide more value.
+
+8
+00:00:22,755 --> 00:00:24,645
+As a product manager,
+
+9
+00:00:24,645 --> 00:00:29,535
+you'll run into lots of different types of issues that you'll need to take care of.
+
+10
+00:00:29,535 --> 00:00:34,215
+A couple of examples are new features that you want to build.
+
+11
+00:00:34,215 --> 00:00:36,570
+Bugs that have been discovered,
+
+12
+00:00:36,570 --> 00:00:41,180
+dog food feedback that identifies a problem with your product,
+
+13
+00:00:41,180 --> 00:00:45,680
+outages and other items that are in your backlog.
+
+14
+00:00:45,680 --> 00:00:48,620
+These are all important types of issues that
+
+15
+00:00:48,620 --> 00:00:51,515
+you'll need to address at some point in time.
+
+16
+00:00:51,515 --> 00:00:56,110
+However, you likely won't be able to address everything at once.
+
+17
+00:00:56,110 --> 00:00:59,000
+Because you can't address everything at once,
+
+18
+00:00:59,000 --> 00:01:02,015
+this is where priority comes into play.
+
+19
+00:01:02,015 --> 00:01:05,585
+Priority is a measure of how important something is,
+
+20
+00:01:05,585 --> 00:01:08,705
+like a feature, bug, issue or task.
+
+21
+00:01:08,705 --> 00:01:11,060
+It's important to remember that priority is
+
+22
+00:01:11,060 --> 00:01:14,450
+subjective and determined by the product manager.
+
+23
+00:01:14,450 --> 00:01:18,500
+You should make sure to take stakeholder input into account,
+
+24
+00:01:18,500 --> 00:01:22,460
+as well as understand the impacted projects context.
+
+25
+00:01:22,460 --> 00:01:27,425
+You can use prioritization to help determine where to focus your efforts.
+
+26
+00:01:27,425 --> 00:01:34,150
+Prioritization forces you to make trade-offs of where you or the team should spend time.
+
+27
+00:01:34,150 --> 00:01:40,355
+Good prioritization results in people spending time on the highest impact things.
+
+28
+00:01:40,355 --> 00:01:42,575
+Since priority is subjective,
+
+29
+00:01:42,575 --> 00:01:47,615
+let's walk through some attributes that help determine the priority of an issue.
+
+30
+00:01:47,615 --> 00:01:51,365
+First, you'll want to understand how this issue
+
+31
+00:01:51,365 --> 00:01:55,235
+impacts the ability to deliver user and business value.
+
+32
+00:01:55,235 --> 00:01:58,265
+Imagine there's an issue with your app crashing.
+
+33
+00:01:58,265 --> 00:02:01,490
+If the app crashes when trying to place an order,
+
+34
+00:02:01,490 --> 00:02:05,990
+that's pretty bad and negatively impacts both user and business value.
+
+35
+00:02:05,990 --> 00:02:10,270
+That issue should be fixed urgently and as soon as possible.
+
+36
+00:02:10,270 --> 00:02:16,145
+Now, imagine that your app crashes when you're going about this app screen.
+
+37
+00:02:16,145 --> 00:02:19,790
+This isn't great. Crashes are never a good thing.
+
+38
+00:02:19,790 --> 00:02:24,680
+But this specific issue doesn't negatively impact user or business value.
+
+39
+00:02:24,680 --> 00:02:26,855
+It should still be fixed at some point,
+
+40
+00:02:26,855 --> 00:02:29,360
+but the urgency is not the same.
+
+41
+00:02:29,360 --> 00:02:33,425
+Another thing to consider is reputational risk.
+
+42
+00:02:33,425 --> 00:02:38,995
+Reputational risk is the damage that could occur if something didn't happen.
+
+43
+00:02:38,995 --> 00:02:41,530
+For example, a bug that wasn't fixed,
+
+44
+00:02:41,530 --> 00:02:43,700
+that had severe consequences.
+
+45
+00:02:43,700 --> 00:02:46,850
+Reputational risk is mostly subjective,
+
+46
+00:02:46,850 --> 00:02:49,385
+but sometimes can be quantified as well.
+
+47
+00:02:49,385 --> 00:02:52,985
+When internal stakeholders see a low severity issue as
+
+48
+00:02:52,985 --> 00:02:57,830
+a reputational risk then the priority of that issue becomes higher.
+
+49
+00:02:57,830 --> 00:03:00,890
+This is very common with issues around privacy,
+
+50
+00:03:00,890 --> 00:03:05,330
+where a report of a user's data leaking or being compromised could be picked up by
+
+51
+00:03:05,330 --> 00:03:10,490
+the media or go viral and it would damage the reputation of the company.
+
+52
+00:03:10,490 --> 00:03:16,550
+Another example is poor capacity planning resulting in an unreliable service.
+
+53
+00:03:16,550 --> 00:03:18,200
+A recent example being
+
+54
+00:03:18,200 --> 00:03:23,585
+an online ticketing platforms sale for a famous artists upcoming concert.
+
+55
+00:03:23,585 --> 00:03:26,810
+Many users were unable to purchase tickets.
+
+56
+00:03:26,810 --> 00:03:29,075
+They complained about it on social media.
+
+57
+00:03:29,075 --> 00:03:31,145
+The mainstream news picked up on it,
+
+58
+00:03:31,145 --> 00:03:35,695
+and the ticketing platform is now being investigated by the Justice Department.
+
+59
+00:03:35,695 --> 00:03:40,705
+Frequency of occurrence of the issue also increases the priority of an issue.
+
+60
+00:03:40,705 --> 00:03:42,950
+An issue with minor severity,
+
+61
+00:03:42,950 --> 00:03:49,700
+but something that occurs frequently can be treated with a higher priority. For example.
+
+62
+00:03:49,700 --> 00:03:51,880
+an error message when saving a coupon.
+
+63
+00:03:51,880 --> 00:03:55,955
+If enough users run into this issue and you start to see
+
+64
+00:03:55,955 --> 00:04:00,215
+a decrease in cereal sales because users believed the coupon won't be applied,
+
+65
+00:04:00,215 --> 00:04:03,220
+the priority of this issue should increase.
+
+66
+00:04:03,220 --> 00:04:06,695
+Lastly, it's important to isolate the impact.
+
+67
+00:04:06,695 --> 00:04:11,390
+This is very important and different from the frequency of occurrence.
+
+68
+00:04:11,390 --> 00:04:13,520
+Does it affect all users,
+
+69
+00:04:13,520 --> 00:04:15,125
+or just a subset?
+
+70
+00:04:15,125 --> 00:04:17,570
+Does it affect all mobile and web,
+
+71
+00:04:17,570 --> 00:04:21,520
+or just iOS or just iOS 11?
+
+72
+00:04:21,520 --> 00:04:24,680
+Understanding the impact of the issue is extremely
+
+73
+00:04:24,680 --> 00:04:29,160
+important and can be used to increase or decrease the priority.
+

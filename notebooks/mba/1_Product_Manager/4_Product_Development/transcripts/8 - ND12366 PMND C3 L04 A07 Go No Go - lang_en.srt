@@ -1,0 +1,380 @@
+1
+00:00:00,020 --> 00:00:03,810
+A go/no-go meeting is a meeting that's held to make
+
+2
+00:00:03,810 --> 00:00:07,635
+a decision about whether to proceed with a project or not.
+
+3
+00:00:07,635 --> 00:00:09,570
+In this specific context,
+
+4
+00:00:09,570 --> 00:00:13,155
+the decision is about whether or not to launch a product.
+
+5
+00:00:13,155 --> 00:00:15,420
+The meeting is typically held towards the end of
+
+6
+00:00:15,420 --> 00:00:18,510
+product development and is typically attended
+
+7
+00:00:18,510 --> 00:00:20,520
+by members of the team as well as
+
+8
+00:00:20,520 --> 00:00:24,090
+stakeholders who have a vested interests in the product success.
+
+9
+00:00:24,090 --> 00:00:27,030
+This can sometimes include the support and marketing teams
+
+10
+00:00:27,030 --> 00:00:30,180
+too since the launch will impact their worlds.
+
+11
+00:00:30,180 --> 00:00:33,810
+During the meeting the team will present the current state of
+
+12
+00:00:33,810 --> 00:00:38,340
+the product in highlighting any risks or issues.
+
+13
+00:00:38,340 --> 00:00:43,505
+Stakeholders will provide feedback and make a decision about whether to launch or not.
+
+14
+00:00:43,505 --> 00:00:45,080
+At the end of the meeting,
+
+15
+00:00:45,080 --> 00:00:48,530
+everyone will walk away with the same understanding of the state of
+
+16
+00:00:48,530 --> 00:00:52,460
+the product along with any issues or risks.
+
+17
+00:00:52,460 --> 00:00:56,360
+The outcome of the meeting is typically a clear decision to
+
+18
+00:00:56,360 --> 00:01:00,740
+either launch the product or not launch the product in its current state.
+
+19
+00:01:00,740 --> 00:01:03,665
+I've seen this happen in three different ways.
+
+20
+00:01:03,665 --> 00:01:06,170
+The first outcome is a clear yes,
+
+21
+00:01:06,170 --> 00:01:12,230
+let's launch it, but another possible outcome is to launch conditionally.
+
+22
+00:01:12,230 --> 00:01:16,610
+An example this could be you need to address the feedback from the meeting,
+
+23
+00:01:16,610 --> 00:01:19,880
+but once you've addressed that feedback you can go ahead and
+
+24
+00:01:19,880 --> 00:01:24,165
+launch and the last outcome is to not launch.
+
+25
+00:01:24,165 --> 00:01:28,510
+In this case you'll still have feedback from the meeting that you need to address,
+
+26
+00:01:28,510 --> 00:01:33,920
+but you'll need to come back and run another go or no-go meetings before you can launch.
+
+27
+00:01:33,920 --> 00:01:36,900
+To run a successful go/no-go meeting,
+
+28
+00:01:36,900 --> 00:01:39,490
+here are a couple of steps that you can take.
+
+29
+00:01:39,490 --> 00:01:42,200
+It's important to invite the right people,
+
+30
+00:01:42,200 --> 00:01:44,560
+make sure that you plan a clear agenda,
+
+31
+00:01:44,560 --> 00:01:47,260
+run the meeting, make a decision,
+
+32
+00:01:47,260 --> 00:01:50,285
+and follow up on any feedback or action items.
+
+33
+00:01:50,285 --> 00:01:53,410
+First, let's talk about inviting the right people.
+
+34
+00:01:53,410 --> 00:01:56,710
+The people who attend the go/no-go meetings should be those who have
+
+35
+00:01:56,710 --> 00:02:00,805
+a vested interest in the product and can provide valuable input.
+
+36
+00:02:00,805 --> 00:02:03,960
+This may include team members and stakeholders.
+
+37
+00:02:03,960 --> 00:02:07,265
+Next, let's talk about planning the agenda.
+
+38
+00:02:07,265 --> 00:02:11,135
+The agenda should include an overview of the project,
+
+39
+00:02:11,135 --> 00:02:14,465
+a review of the progress that's been made so far,
+
+40
+00:02:14,465 --> 00:02:18,815
+and a discussion of any potential risks or challenges.
+
+41
+00:02:18,815 --> 00:02:22,355
+It's common that our product manager will facilitate the meeting,
+
+42
+00:02:22,355 --> 00:02:26,405
+but team members will speak about their own areas of expertise.
+
+43
+00:02:26,405 --> 00:02:30,200
+For example, a UX designer might talk about the state of
+
+44
+00:02:30,200 --> 00:02:35,410
+the UX and someone from the Q&A team can present the results from testing.
+
+45
+00:02:35,410 --> 00:02:38,734
+It should also include a section for discussion
+
+46
+00:02:38,734 --> 00:02:41,450
+and decision-making where attendees can provide
+
+47
+00:02:41,450 --> 00:02:44,480
+their input and make a decision about whether to launch or
+
+48
+00:02:44,480 --> 00:02:48,270
+not then you'll run the meeting.
+
+49
+00:02:48,270 --> 00:02:51,440
+During the meeting, make sure to stick to
+
+50
+00:02:51,440 --> 00:02:55,295
+the agenda and give everyone the opportunity to provide their input.
+
+51
+00:02:55,295 --> 00:02:59,150
+Encourage open and honest discussion and be
+
+52
+00:02:59,150 --> 00:03:03,230
+prepared to address any concerns or questions that are raised.
+
+53
+00:03:03,230 --> 00:03:07,280
+It's important to discuss the potential risks and challenges in
+
+54
+00:03:07,280 --> 00:03:11,150
+details and ask for input from all participants.
+
+55
+00:03:11,150 --> 00:03:14,420
+This will help ensure that all perspectives are considered
+
+56
+00:03:14,420 --> 00:03:18,080
+and that any potential risks are thoroughly evaluated.
+
+57
+00:03:18,080 --> 00:03:21,815
+After all of the information has been presented and discussed,
+
+58
+00:03:21,815 --> 00:03:23,795
+it's time to make a decision.
+
+59
+00:03:23,795 --> 00:03:28,215
+The group should come to a consensus about whether to launch or not.
+
+60
+00:03:28,215 --> 00:03:31,510
+This can sometimes be a stressful situation because
+
+61
+00:03:31,510 --> 00:03:35,930
+so many people have spent a lot of time and energy to build the product,
+
+62
+00:03:35,930 --> 00:03:40,090
+but remember that sometimes the right thing to do for the user is
+
+63
+00:03:40,090 --> 00:03:44,650
+to postpone the launch if the product isn't ready and there are major issues.
+
+64
+00:03:44,650 --> 00:03:48,130
+I remember one time when I was really nervous going into
+
+65
+00:03:48,130 --> 00:03:49,900
+a launch meeting because there were
+
+66
+00:03:49,900 --> 00:03:52,675
+some pretty serious problems that needed to be addressed,
+
+67
+00:03:52,675 --> 00:03:56,170
+but I was surprised and relieved when everyone in
+
+68
+00:03:56,170 --> 00:04:00,655
+the room unanimously agreed that we should not launch in the current state.
+
+69
+00:04:00,655 --> 00:04:02,795
+The focus wasn't on blame,
+
+70
+00:04:02,795 --> 00:04:05,380
+instead we identified the things that would
+
+71
+00:04:05,380 --> 00:04:08,360
+need to be addressed before we could launch the product.
+
+72
+00:04:08,360 --> 00:04:10,590
+After the decision has been made,
+
+73
+00:04:10,590 --> 00:04:12,410
+it's important to follow up with
+
+74
+00:04:12,410 --> 00:04:16,160
+the relevant parties to ensure that everything is moving forward as
+
+75
+00:04:16,160 --> 00:04:18,200
+planned or to take
+
+76
+00:04:18,200 --> 00:04:19,940
+the appropriate next steps to address
+
+77
+00:04:19,940 --> 00:04:22,825
+the blockers that were discussed during the meeting.
+
+78
+00:04:22,825 --> 00:04:28,325
+Sometimes you'll go through this process and the decision is to not launch.
+
+79
+00:04:28,325 --> 00:04:31,250
+This outcome can be a frustrating experience
+
+80
+00:04:31,250 --> 00:04:34,610
+especially when you personally feel like the product is launch-ready.
+
+81
+00:04:34,610 --> 00:04:37,565
+This does happen and it's okay.
+
+82
+00:04:37,565 --> 00:04:41,914
+Try to keep a positive attitude and keep the team motivated.
+
+83
+00:04:41,914 --> 00:04:45,980
+These cases not launching means that the product wasn't ready
+
+84
+00:04:45,980 --> 00:04:50,045
+or would have resulted in a lackluster experience for users due to bugs,
+
+85
+00:04:50,045 --> 00:04:51,215
+or other issues,
+
+86
+00:04:51,215 --> 00:04:53,965
+or created too much risks for the business.
+
+87
+00:04:53,965 --> 00:04:58,490
+For example, if not all the legal or privacy requirements are fully met,
+
+88
+00:04:58,490 --> 00:05:00,170
+that's a big problem.
+
+89
+00:05:00,170 --> 00:05:05,120
+Launching something when it's not ready is also not a fun experience and can create
+
+90
+00:05:05,120 --> 00:05:07,730
+a different set of problems and
+
+91
+00:05:07,730 --> 00:05:11,135
+this meeting is something that would prevent that from happening.
+
+92
+00:05:11,135 --> 00:05:14,360
+Your role as product manager is to work with
+
+93
+00:05:14,360 --> 00:05:17,510
+the team to put together a plan on how to address
+
+94
+00:05:17,510 --> 00:05:19,990
+the launch blockers that came up during the meeting
+
+95
+00:05:19,990 --> 00:05:25,050
+including a timeline for when all the issues can be fixed.
+

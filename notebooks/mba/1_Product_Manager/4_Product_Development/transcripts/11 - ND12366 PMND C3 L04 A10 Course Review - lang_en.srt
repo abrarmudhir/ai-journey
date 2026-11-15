@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:03,780
+Congrats. You made it through the product development course.
+
+2
+00:00:03,780 --> 00:00:08,130
+During product development, the team is building the product and testing it.
+
+3
+00:00:08,130 --> 00:00:11,790
+Product managers play an important role during this phase and are
+
+4
+00:00:11,790 --> 00:00:15,705
+responsible for delivering a high-quality, successful product.
+
+5
+00:00:15,705 --> 00:00:18,240
+But most of the people working on the team,
+
+6
+00:00:18,240 --> 00:00:21,285
+don't actually report directly to the product manager.
+
+7
+00:00:21,285 --> 00:00:24,450
+In order for a product manager to be effective,
+
+8
+00:00:24,450 --> 00:00:27,450
+they must be able to influence without authority.
+
+9
+00:00:27,450 --> 00:00:31,755
+This can be done by creating credibility and trust across the team.
+
+10
+00:00:31,755 --> 00:00:35,520
+We talked a bit about different methodologies for development,
+
+11
+00:00:35,520 --> 00:00:40,305
+with agile being one of the most commonly used methodologies in software development.
+
+12
+00:00:40,305 --> 00:00:44,945
+We also talked about best practices for collaboration and project management,
+
+13
+00:00:44,945 --> 00:00:48,270
+along with tools that are commonly used.
+
+14
+00:00:48,350 --> 00:00:50,525
+In this last lesson,
+
+15
+00:00:50,525 --> 00:00:53,720
+we focused on how to build a high-quality product,
+
+16
+00:00:53,720 --> 00:00:58,340
+by making sure that the product is working correctly through QA testing and
+
+17
+00:00:58,340 --> 00:01:00,620
+getting additional feedback from dog fodders to
+
+18
+00:01:00,620 --> 00:01:04,240
+understand how the product is used in the real world.
+
+19
+00:01:04,240 --> 00:01:07,745
+Once you've identified product issues and bugs,
+
+20
+00:01:07,745 --> 00:01:10,365
+we talked about the importance of prioritization,
+
+21
+00:01:10,365 --> 00:01:13,805
+and how to use a prioritization framework to make sure
+
+22
+00:01:13,805 --> 00:01:18,510
+the most important issues get addressed before launching your product.
+

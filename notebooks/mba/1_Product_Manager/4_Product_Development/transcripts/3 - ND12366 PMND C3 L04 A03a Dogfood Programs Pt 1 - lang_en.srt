@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:04,190
+Have you ever heard the phrase Eat your own dog food?
+
+2
+00:00:04,190 --> 00:00:07,105
+This is also known as dogfooding
+
+3
+00:00:07,105 --> 00:00:11,085
+or the idea that you and your company should use your own products.
+
+4
+00:00:11,085 --> 00:00:15,210
+This is part of the culture at many large companies like Google and Uber.
+
+5
+00:00:15,210 --> 00:00:17,340
+And also at smaller startups as well.
+
+6
+00:00:17,340 --> 00:00:21,870
+Employees will get access to pre-release versions of products to use,
+
+7
+00:00:21,870 --> 00:00:24,285
+test, and provide feedback.
+
+8
+00:00:24,285 --> 00:00:27,120
+How is this different from user testing?
+
+9
+00:00:27,120 --> 00:00:30,075
+Well, user testing can be helpful,
+
+10
+00:00:30,075 --> 00:00:33,270
+but oftentimes, lab environments are too controlled.
+
+11
+00:00:33,270 --> 00:00:39,085
+Or user testing is done using a prototype that doesn't have complete functionality.
+
+12
+00:00:39,085 --> 00:00:43,375
+The product is also used for just a short period of time.
+
+13
+00:00:43,375 --> 00:00:46,820
+This prevents you from getting important feedback.
+
+14
+00:00:46,820 --> 00:00:50,780
+Dogfooding helps to solve that problem because it allows
+
+15
+00:00:50,780 --> 00:00:54,655
+you to get feedback on your product based on real-world usage.
+
+16
+00:00:54,655 --> 00:00:59,395
+Dog fooders use a real version of their product, not a prototype.
+
+17
+00:00:59,395 --> 00:01:02,930
+When they run into issues or bugs, they report them.
+
+18
+00:01:02,930 --> 00:01:06,140
+This directly helps to improve your product.
+
+19
+00:01:06,140 --> 00:01:10,615
+Dogfooders also use the product for an extended period of time,
+
+20
+00:01:10,615 --> 00:01:13,040
+so have more of an opportunity to use
+
+21
+00:01:13,040 --> 00:01:17,315
+more features of the product and test them out in different scenarios.
+
+22
+00:01:17,315 --> 00:01:22,085
+Dogfooding is a way to identify issues before launching your product.
+
+23
+00:01:22,085 --> 00:01:25,100
+These issues could be bugs where there's a problem with
+
+24
+00:01:25,100 --> 00:01:28,610
+the code not working correctly or doing what it's supposed to.
+
+25
+00:01:28,610 --> 00:01:32,200
+These issues will sometimes be identified through QA.
+
+26
+00:01:32,200 --> 00:01:35,300
+However, dogfooding will also help you
+
+27
+00:01:35,300 --> 00:01:39,160
+identify issues with the product when it comes to user expectations.
+
+28
+00:01:39,160 --> 00:01:41,630
+For example, if the product doesn't work the way
+
+29
+00:01:41,630 --> 00:01:44,765
+a user would expect or doesn't meet a user's needs.
+
+30
+00:01:44,765 --> 00:01:50,730
+This type of feedback is critical and not something that would be discovered through QA.
+

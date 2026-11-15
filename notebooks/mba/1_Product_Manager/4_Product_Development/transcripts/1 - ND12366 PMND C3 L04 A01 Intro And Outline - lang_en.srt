@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:04,095
+After your product has been built and before you launch it,
+
+2
+00:00:04,095 --> 00:00:06,600
+you'll need to test it to make sure that it's working
+
+3
+00:00:06,600 --> 00:00:09,360
+correctly and meeting user expectations.
+
+4
+00:00:09,360 --> 00:00:11,940
+This can happen through QA testing,
+
+5
+00:00:11,940 --> 00:00:15,915
+but it's also important to get feedback from real life usage.
+
+6
+00:00:15,915 --> 00:00:20,250
+Some issues won't be discovered from just QA testing alone.
+
+7
+00:00:20,250 --> 00:00:22,560
+Once you've identified issues,
+
+8
+00:00:22,560 --> 00:00:26,100
+you'll also have to work through how to prioritize them so
+
+9
+00:00:26,100 --> 00:00:30,465
+that the team is focused on fixing the most impactful issues first.
+
+10
+00:00:30,465 --> 00:00:33,485
+Finally, before you can launch,
+
+11
+00:00:33,485 --> 00:00:39,065
+you should run a go/no-go meeting to clearly articulate the status of your project,
+
+12
+00:00:39,065 --> 00:00:42,865
+risks and mitigations to your stakeholders.
+
+13
+00:00:42,865 --> 00:00:46,370
+All of these activities are focused around
+
+14
+00:00:46,370 --> 00:00:49,610
+shipping a high-quality product and making sure
+
+15
+00:00:49,610 --> 00:00:52,260
+that all stakeholders are informed and on
+
+16
+00:00:52,260 --> 00:00:55,895
+the same page when it comes to lunch status and open issues.
+
+17
+00:00:55,895 --> 00:01:00,790
+When it comes to test plans we'll cover what is a test plan?
+
+18
+00:01:00,790 --> 00:01:03,695
+What are functional requirements?
+
+19
+00:01:03,695 --> 00:01:06,350
+What are non-functional requirements and
+
+20
+00:01:06,350 --> 00:01:09,185
+how are they different from functional requirements?
+
+21
+00:01:09,185 --> 00:01:11,510
+How to work with the QA team,
+
+22
+00:01:11,510 --> 00:01:14,450
+and what happens when issues are discovered.
+
+23
+00:01:14,450 --> 00:01:17,485
+Then we'll talk about dogfood programs.
+
+24
+00:01:17,485 --> 00:01:23,990
+Specifically, what is dogfooding and how does it differ from user testing?
+
+25
+00:01:23,990 --> 00:01:26,584
+Why is dogfooding valuable?
+
+26
+00:01:26,584 --> 00:01:29,525
+How you can create a dogfood program.
+
+27
+00:01:29,525 --> 00:01:34,325
+How to get feedback from your dogfooders and once you have feedback,
+
+28
+00:01:34,325 --> 00:01:35,960
+how to act on it.
+
+29
+00:01:35,960 --> 00:01:39,590
+As you start to identify issues from testing and dogfooding,
+
+30
+00:01:39,590 --> 00:01:41,465
+you'll need to prioritize them.
+
+31
+00:01:41,465 --> 00:01:44,975
+We'll talk about why prioritization is important.
+
+32
+00:01:44,975 --> 00:01:48,310
+What are different types of issues you might encounter,
+
+33
+00:01:48,310 --> 00:01:53,965
+and how you can use a prioritization framework to guide your decision-making process.
+
+34
+00:01:53,965 --> 00:01:56,585
+In the last part of this lesson,
+
+35
+00:01:56,585 --> 00:02:00,605
+we'll cover how to run a go/no-go launch meeting.
+
+36
+00:02:00,605 --> 00:02:05,575
+We'll start by learning what exactly is a go no-go meeting,
+
+37
+00:02:05,575 --> 00:02:08,825
+how you can run a go no-go meeting,
+
+38
+00:02:08,825 --> 00:02:14,970
+and how to handle a meeting when the answer is no. Let's get started.
+
