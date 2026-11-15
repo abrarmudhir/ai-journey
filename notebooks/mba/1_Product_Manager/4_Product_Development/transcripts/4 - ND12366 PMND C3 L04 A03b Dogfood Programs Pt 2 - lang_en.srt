@@ -1,0 +1,304 @@
+1
+00:00:00,000 --> 00:00:03,150
+Creating a dogfood program is a great way to get
+
+2
+00:00:03,150 --> 00:00:06,465
+valuable feedback and do a risk your product launch.
+
+3
+00:00:06,465 --> 00:00:10,575
+The first thing is to identify your dogfood population.
+
+4
+00:00:10,575 --> 00:00:13,290
+In general, the more people who can dogfood
+
+5
+00:00:13,290 --> 00:00:15,885
+your product and provide feedback, the better.
+
+6
+00:00:15,885 --> 00:00:19,380
+However, for some products that require hardware,
+
+7
+00:00:19,380 --> 00:00:24,150
+like a phone, there's a limited number of devices available.
+
+8
+00:00:24,150 --> 00:00:27,840
+In these cases you'll want to make sure to identify
+
+9
+00:00:27,840 --> 00:00:31,620
+people who can dogfood who are close to your target user.
+
+10
+00:00:31,620 --> 00:00:35,070
+Additionally, because there's a limited number of devices,
+
+11
+00:00:35,070 --> 00:00:39,680
+you'll want to make sure that people will actually use it and provide feedback.
+
+12
+00:00:39,680 --> 00:00:42,815
+Once you've identified your dogfood population,
+
+13
+00:00:42,815 --> 00:00:45,320
+you'll also need to work with your engineering team to
+
+14
+00:00:45,320 --> 00:00:48,530
+figure out how to get the product to those dogfooders,
+
+15
+00:00:48,530 --> 00:00:51,610
+including any updates that you'll want to push out.
+
+16
+00:00:51,610 --> 00:00:55,700
+If it's an app, both Google Play and the App Store support
+
+17
+00:00:55,700 --> 00:00:59,915
+pushing out test builds to a specific set of users.
+
+18
+00:00:59,915 --> 00:01:02,195
+If your product is web-based,
+
+19
+00:01:02,195 --> 00:01:06,050
+you'll need to figure out how to make sure that dogfooders can access it.
+
+20
+00:01:06,050 --> 00:01:08,480
+If your product is hardware,
+
+21
+00:01:08,480 --> 00:01:12,245
+you'll also need to work through logistics for device distribution,
+
+22
+00:01:12,245 --> 00:01:15,410
+as well as keeping track of who's been given a device.
+
+23
+00:01:15,410 --> 00:01:19,785
+Getting feedback is the reason why dogfood programs exists.
+
+24
+00:01:19,785 --> 00:01:22,565
+There's a bunch of ways that you can collect feedback,
+
+25
+00:01:22,565 --> 00:01:25,670
+but I'll talk about three of the most common ones.
+
+26
+00:01:25,670 --> 00:01:28,325
+The first is looking at logs.
+
+27
+00:01:28,325 --> 00:01:30,860
+This will give you insight into what features are
+
+28
+00:01:30,860 --> 00:01:34,025
+being used and how dogfooders are using your product.
+
+29
+00:01:34,025 --> 00:01:38,225
+This is also a good way to stress test that you're logging and collecting
+
+30
+00:01:38,225 --> 00:01:40,010
+enough information to understand
+
+31
+00:01:40,010 --> 00:01:44,405
+user behavior and answer questions about how your product is doing.
+
+32
+00:01:44,405 --> 00:01:47,240
+Email groups are another way.
+
+33
+00:01:47,240 --> 00:01:50,030
+This creates a form for dogfooders to discuss
+
+34
+00:01:50,030 --> 00:01:54,380
+their experience and share feedback broadly with other dogfooders.
+
+35
+00:01:54,380 --> 00:01:57,470
+The third method is through surveys.
+
+36
+00:01:57,470 --> 00:01:58,940
+This allows you to ask
+
+37
+00:01:58,940 --> 00:02:03,980
+dogfooders specific questions about areas that you want to learn more about.
+
+38
+00:02:03,980 --> 00:02:06,950
+If you have a user researcher on your team,
+
+39
+00:02:06,950 --> 00:02:10,160
+they can help you to design a dogfood survey.
+
+40
+00:02:10,160 --> 00:02:14,240
+If you don't here are things to keep in mind.
+
+41
+00:02:14,240 --> 00:02:17,915
+Start by identifying what you want to learn.
+
+42
+00:02:17,915 --> 00:02:23,210
+Then write questions that will help you get the correct insights.
+
+43
+00:02:23,210 --> 00:02:27,020
+Try to keep your questions simple and straight forward.
+
+44
+00:02:27,020 --> 00:02:29,795
+You should avoid the use of jargon.
+
+45
+00:02:29,795 --> 00:02:33,035
+It's important to ask one question at a time.
+
+46
+00:02:33,035 --> 00:02:35,750
+Don't try to combine multiple topics into
+
+47
+00:02:35,750 --> 00:02:39,425
+a single question because it'll end up being really confusing.
+
+48
+00:02:39,425 --> 00:02:44,255
+You'll also want to use a balance of close and open-ended questions.
+
+49
+00:02:44,255 --> 00:02:48,215
+Close-ended questions are great at getting an objective answer.
+
+50
+00:02:48,215 --> 00:02:52,085
+While open-ended questions are helpful to better understand
+
+51
+00:02:52,085 --> 00:02:56,555
+a dogfooders experienced in detail or why they feel a certain way.
+
+52
+00:02:56,555 --> 00:03:00,410
+An example of a closed-ended question is,
+
+53
+00:03:00,410 --> 00:03:02,010
+did you like the product?
+
+54
+00:03:02,010 --> 00:03:05,810
+People will usually answer this with either a yes or no.
+
+55
+00:03:05,810 --> 00:03:08,435
+Whereas an open-ended question like,
+
+56
+00:03:08,435 --> 00:03:10,355
+what did you think about the product?
+
+57
+00:03:10,355 --> 00:03:13,700
+You'll still get a sense of whether or not people like the product.
+
+58
+00:03:13,700 --> 00:03:18,885
+But you'll also get to hear a bit of their rationale about why they felt that way.
+
+59
+00:03:18,885 --> 00:03:23,585
+The last thing is that it's important to test your survey before sending it.
+
+60
+00:03:23,585 --> 00:03:27,730
+This will prevent headaches and from you having to send an Oops,
+
+61
+00:03:27,730 --> 00:03:29,380
+sorry, the survey was broken,
+
+62
+00:03:29,380 --> 00:03:30,685
+please try it again,
+
+63
+00:03:30,685 --> 00:03:32,245
+email out to dogfooders.
+
+64
+00:03:32,245 --> 00:03:34,015
+Once you start getting feedback,
+
+65
+00:03:34,015 --> 00:03:36,670
+make sure to take some time to analyze it.
+
+66
+00:03:36,670 --> 00:03:38,920
+Once you fully understand it,
+
+67
+00:03:38,920 --> 00:03:43,270
+you'll want to identify trends and issues that dogfooders encountered.
+
+68
+00:03:43,270 --> 00:03:49,180
+The next step is to determine if it's feedback that you want to address or not.
+
+69
+00:03:49,180 --> 00:03:51,370
+Keep in mind that in many cases,
+
+70
+00:03:51,370 --> 00:03:56,020
+your dogfood population will be significantly different than your target user.
+
+71
+00:03:56,020 --> 00:03:59,710
+This means that they might have feedback that isn't directly
+
+72
+00:03:59,710 --> 00:04:03,620
+relevant to your target user and doesn't need to be addressed.
+
+73
+00:04:03,620 --> 00:04:08,020
+Not every piece of dogfood feedback needs to be addressed.
+
+74
+00:04:08,020 --> 00:04:11,650
+Once you've identified feedback you'll want to address,
+
+75
+00:04:11,650 --> 00:04:15,410
+the next step is to create tasks for each item.
+
+76
+00:04:15,410 --> 00:04:21,060
+Then you'll need to prioritize addressing those pieces of feedback.
+

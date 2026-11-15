@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:02,460
+Let's review what we learned in this lesson.
+
+2
+00:00:02,460 --> 00:00:05,735
+Once your product has been built, you're done.
+
+3
+00:00:05,735 --> 00:00:08,165
+Wait, not so fast.
+
+4
+00:00:08,165 --> 00:00:09,905
+There's still more work to do.
+
+5
+00:00:09,905 --> 00:00:12,050
+After the product has been built,
+
+6
+00:00:12,050 --> 00:00:14,415
+it's important to validate that it's working well
+
+7
+00:00:14,415 --> 00:00:17,565
+and providing value for users before launching it.
+
+8
+00:00:17,565 --> 00:00:20,270
+We talked about how you can partner with
+
+9
+00:00:20,270 --> 00:00:23,350
+the QA team to collaborate on writing test plans.
+
+10
+00:00:23,350 --> 00:00:26,750
+In particular we talked about how test cases need to
+
+11
+00:00:26,750 --> 00:00:30,680
+be defined for both functional and non-functional requirements.
+
+12
+00:00:30,680 --> 00:00:35,900
+This type of testing will validate if the product is working correctly as intended.
+
+13
+00:00:35,900 --> 00:00:39,500
+We also talked about how to run a dogfood program and
+
+14
+00:00:39,500 --> 00:00:42,710
+dogfooders can be a great source of additional feedback.
+
+15
+00:00:42,710 --> 00:00:45,560
+Dogfooders can help to answer the question of
+
+16
+00:00:45,560 --> 00:00:49,480
+how well your product works under real-world conditions.
+
+17
+00:00:49,480 --> 00:00:55,580
+At this point you'll have a lot of different feedback from QA testing and dogfood.
+
+18
+00:00:55,580 --> 00:01:00,260
+We talked about how to prioritize issues based on severity.
+
+19
+00:01:00,260 --> 00:01:03,920
+There's a limited amount of time you and your team have everyday
+
+20
+00:01:03,920 --> 00:01:08,010
+to get things done but a never ending list of to-dos.
+
+21
+00:01:08,010 --> 00:01:11,870
+It's important to think about value versus effort to make sure you're
+
+22
+00:01:11,870 --> 00:01:15,995
+spending your time on the things that are going to make the biggest impact.
+
+23
+00:01:15,995 --> 00:01:19,695
+Lastly, we talked about go/no go meetings.
+
+24
+00:01:19,695 --> 00:01:22,695
+Why they're valuable and how to run one.
+
+25
+00:01:22,695 --> 00:01:27,110
+This meeting is important because it makes sure everyone is on the same page
+
+26
+00:01:27,110 --> 00:01:31,455
+about the state of the product and if the decision is go,
+
+27
+00:01:31,455 --> 00:01:33,465
+you get to move on to launch.
+
+28
+00:01:33,465 --> 00:01:35,590
+But if the decision is no go,
+
+29
+00:01:35,590 --> 00:01:39,510
+then there's more work to do before launching.
+

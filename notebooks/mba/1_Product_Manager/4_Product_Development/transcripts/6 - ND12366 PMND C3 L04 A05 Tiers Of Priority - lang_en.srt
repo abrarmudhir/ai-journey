@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:02,640
+Now that we have understood the concept of
+
+2
+00:00:02,640 --> 00:00:06,330
+priority and what information is used to determine priority.
+
+3
+00:00:06,330 --> 00:00:09,615
+Let's understand the different tiers of priority.
+
+4
+00:00:09,615 --> 00:00:11,655
+But before we dig into this,
+
+5
+00:00:11,655 --> 00:00:14,775
+I just want to highlight that different teams and companies
+
+6
+00:00:14,775 --> 00:00:18,310
+approach this scale differently. That's okay.
+
+7
+00:00:18,310 --> 00:00:21,500
+The important thing is that you understand and align with
+
+8
+00:00:21,500 --> 00:00:25,015
+your team on this scale and expectations for each priority.
+
+9
+00:00:25,015 --> 00:00:28,295
+Now, let's briefly go over each tier of priority.
+
+10
+00:00:28,295 --> 00:00:31,640
+First, we have urgent issues or P0s.
+
+11
+00:00:31,640 --> 00:00:35,000
+These are issues that must be resolved as soon as
+
+12
+00:00:35,000 --> 00:00:38,255
+possible due to the severe impact on the system.
+
+13
+00:00:38,255 --> 00:00:41,480
+In some cases, engineers may get paged when
+
+14
+00:00:41,480 --> 00:00:45,815
+a P0 issue is filed and may not go home until the issue is resolved.
+
+15
+00:00:45,815 --> 00:00:49,445
+Next is high priority issues or P1s.
+
+16
+00:00:49,445 --> 00:00:54,155
+These are issues that should be fixed as part of the regular release cycle.
+
+17
+00:00:54,155 --> 00:00:59,410
+You may need to de-prioritize other tasks if you don't have any buffer in your schedule.
+
+18
+00:00:59,410 --> 00:01:03,410
+Medium issues or P2s are lower priority and can be
+
+19
+00:01:03,410 --> 00:01:08,315
+fixed much later in time since the issue doesn't cause significant impact.
+
+20
+00:01:08,315 --> 00:01:13,220
+Lastly, we have low-priority issues or P3s and P4s.
+
+21
+00:01:13,220 --> 00:01:17,555
+These are issues that are unlikely to be fixed since the impact is so low.
+
+22
+00:01:17,555 --> 00:01:20,630
+Occasionally these might get re-prioritized to medium or
+
+23
+00:01:20,630 --> 00:01:24,509
+high priority issues if the impact changes.
+
