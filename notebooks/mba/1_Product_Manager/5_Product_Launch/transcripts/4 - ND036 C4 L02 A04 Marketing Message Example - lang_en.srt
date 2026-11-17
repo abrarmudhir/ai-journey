@@ -1,0 +1,152 @@
+1
+00:00:00,000 --> 00:00:03,540
+Let me give you a live example from my career.
+
+2
+00:00:03,540 --> 00:00:06,945
+I had to launch a consumer to enterprise product,
+
+3
+00:00:06,945 --> 00:00:11,295
+which means I had to convert users from consumers to paying customers.
+
+4
+00:00:11,295 --> 00:00:13,920
+Not an easy task by any means because
+
+5
+00:00:13,920 --> 00:00:16,860
+nobody really wants to pay when they can get it for free.
+
+6
+00:00:16,860 --> 00:00:21,570
+In order to convince our potential customers that product worth paying for,
+
+7
+00:00:21,570 --> 00:00:24,780
+I had to work very close with my marketing partner.
+
+8
+00:00:24,780 --> 00:00:29,445
+In fact, she was basically part of our team for the whole process.
+
+9
+00:00:29,445 --> 00:00:33,135
+We saw product success as a shared responsibility.
+
+10
+00:00:33,135 --> 00:00:35,975
+First, we worked together to
+
+11
+00:00:35,975 --> 00:00:39,555
+outline the advantage of our product versus the free version.
+
+12
+00:00:39,555 --> 00:00:41,375
+Once we have that,
+
+13
+00:00:41,375 --> 00:00:46,850
+my product marketing manager went ahead and created a landing page for our product.
+
+14
+00:00:46,850 --> 00:00:49,860
+She incorporated all the elements we discussed.
+
+15
+00:00:49,860 --> 00:00:51,230
+Once that was done,
+
+16
+00:00:51,230 --> 00:00:55,325
+we reviewed it as a team and agreed on testing to pick the winning version.
+
+17
+00:00:55,325 --> 00:00:57,590
+In parallel, we had to work on
+
+18
+00:00:57,590 --> 00:01:01,540
+different promotions to actually bring our users to the landing page.
+
+19
+00:01:01,540 --> 00:01:05,000
+Once again, my marketing partner was there to help.
+
+20
+00:01:05,000 --> 00:01:08,210
+She crafted multiple messages to our users
+
+21
+00:01:08,210 --> 00:01:12,845
+and I supported her by creating multiple tests to validate our best promotion.
+
+22
+00:01:12,845 --> 00:01:15,015
+In order to prepare for the launch,
+
+23
+00:01:15,015 --> 00:01:17,450
+she also worked with different marketing team across
+
+24
+00:01:17,450 --> 00:01:20,510
+the globe to get local support in different countries.
+
+25
+00:01:20,510 --> 00:01:23,600
+Not to mention that all this marketing partners checked
+
+26
+00:01:23,600 --> 00:01:26,795
+out translation a couple more times just to be sure.
+
+27
+00:01:26,795 --> 00:01:29,625
+Once we launched, we didn't stop partnering,
+
+28
+00:01:29,625 --> 00:01:32,450
+we actually develop a mutual road map which involved
+
+29
+00:01:32,450 --> 00:01:35,090
+product features supported by marketing campaigns.
+
+30
+00:01:35,090 --> 00:01:38,795
+It was important to show a united front, our leadership,
+
+31
+00:01:38,795 --> 00:01:43,420
+so that we have the support of both product and marketing for future development.
+
+32
+00:01:43,420 --> 00:01:46,610
+One of my favorite parts of that project was actually having
+
+33
+00:01:46,610 --> 00:01:51,670
+a great sounding board who thinks about the product strategy and user needs with me.
+
+34
+00:01:51,670 --> 00:01:53,690
+In my role today,
+
+35
+00:01:53,690 --> 00:01:55,880
+I always have recurring meetings with
+
+36
+00:01:55,880 --> 00:01:59,360
+my partners to make sure they're not missing anything.
+
+37
+00:01:59,360 --> 00:02:02,720
+That way, I'm involved in what our partner teams are
+
+38
+00:02:02,720 --> 00:02:08,610
+thinking and they know all the new items coming out of our product team.
+

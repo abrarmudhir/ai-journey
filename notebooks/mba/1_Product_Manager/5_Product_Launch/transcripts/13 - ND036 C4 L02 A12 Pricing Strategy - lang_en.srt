@@ -1,0 +1,308 @@
+1
+00:00:00,000 --> 00:00:01,935
+In the last part of this lesson,
+
+2
+00:00:01,935 --> 00:00:04,005
+let's talk about pricing strategy.
+
+3
+00:00:04,005 --> 00:00:08,535
+Setting up the correct price for your product is a very complex affair.
+
+4
+00:00:08,535 --> 00:00:12,555
+A lot of companies, there are whole departments that deal with this problem.
+
+5
+00:00:12,555 --> 00:00:15,930
+So what do you need to know about pricing as a product manager?
+
+6
+00:00:15,930 --> 00:00:19,545
+There are several factors to consider when setting pricing;
+
+7
+00:00:19,545 --> 00:00:22,965
+what value does the user get from using the product,
+
+8
+00:00:22,965 --> 00:00:25,725
+what does the product cost to produce,
+
+9
+00:00:25,725 --> 00:00:28,485
+what is the company's goal for the product,
+
+10
+00:00:28,485 --> 00:00:30,780
+and what do competitors charge?
+
+11
+00:00:30,780 --> 00:00:32,910
+Let's take them one by one.
+
+12
+00:00:32,910 --> 00:00:37,825
+Value. Users can get value from our product which saves the money or time,
+
+13
+00:00:37,825 --> 00:00:39,815
+or just makes their life better.
+
+14
+00:00:39,815 --> 00:00:42,710
+Your price can be higher than the value that
+
+15
+00:00:42,710 --> 00:00:45,380
+the user thinks she's getting from your product,
+
+16
+00:00:45,380 --> 00:00:47,095
+or user just won't buy it.
+
+17
+00:00:47,095 --> 00:00:50,360
+Cost. Your product may not be sustainable in
+
+18
+00:00:50,360 --> 00:00:54,290
+the long run if you price it below what it cost your company to create it.
+
+19
+00:00:54,290 --> 00:00:57,410
+That being said, there are often strategic reasons
+
+20
+00:00:57,410 --> 00:01:00,700
+why a company will choose to price a product below cost.
+
+21
+00:01:00,700 --> 00:01:03,154
+Leave the number are good examples.
+
+22
+00:01:03,154 --> 00:01:08,300
+They strategically subsidize the cost of a right to build new market share. Product goal.
+
+23
+00:01:08,300 --> 00:01:10,430
+It is critical to understand how
+
+24
+00:01:10,430 --> 00:01:13,715
+your product fits into your company's portfolio and vision.
+
+25
+00:01:13,715 --> 00:01:17,030
+Sometimes, company have products which are free,
+
+26
+00:01:17,030 --> 00:01:23,070
+and the whole purpose of this product is just for greater good and not to make money.
+
+27
+00:01:23,070 --> 00:01:26,475
+Google has a lot of products that think in that category.
+
+28
+00:01:26,475 --> 00:01:30,635
+Or product might be created to help save costs in another part of the portfolio.
+
+29
+00:01:30,635 --> 00:01:34,055
+We can see this in some of examples from the earlier courses.
+
+30
+00:01:34,055 --> 00:01:39,020
+I have insurance company like Kaiser Permanente might want to give the purchasers of
+
+31
+00:01:39,020 --> 00:01:41,330
+its insurance a free health tracking app to improve
+
+32
+00:01:41,330 --> 00:01:44,425
+the user's health and reduce the use of medical services.
+
+33
+00:01:44,425 --> 00:01:46,500
+Competitors price.
+
+34
+00:01:46,500 --> 00:01:51,440
+Users won't to use your product if they can get a competitor's product for a lower price.
+
+35
+00:01:51,440 --> 00:01:55,720
+You can work around this constraint by providing a superior product,
+
+36
+00:01:55,720 --> 00:01:57,530
+but you still need to be aware of
+
+37
+00:01:57,530 --> 00:02:02,345
+the competitive marketplace and how your product fits in the user's price value model.
+
+38
+00:02:02,345 --> 00:02:04,700
+Once I've looked at the value, cost, goals,
+
+39
+00:02:04,700 --> 00:02:08,420
+and competitor's price, we can set a pricing model for our product.
+
+40
+00:02:08,420 --> 00:02:11,060
+There are a lot of different pricing models,
+
+41
+00:02:11,060 --> 00:02:13,445
+and we'll just talk about a few of them here.
+
+42
+00:02:13,445 --> 00:02:17,070
+Free. You can give your product away for users,
+
+43
+00:02:17,070 --> 00:02:19,040
+like many of Google's services and
+
+44
+00:02:19,040 --> 00:02:22,450
+the hypothetical Kaiser Permanente app we discussed above.
+
+45
+00:02:22,450 --> 00:02:25,960
+Freemium. The basic product is free,
+
+46
+00:02:25,960 --> 00:02:28,765
+but you can purchase additional features or content.
+
+47
+00:02:28,765 --> 00:02:31,315
+Dropbox is a good example of this.
+
+48
+00:02:31,315 --> 00:02:34,070
+You can get a limited amount of storage for free,
+
+49
+00:02:34,070 --> 00:02:39,030
+but many users opt-out to purchase extra storage. Ad supported.
+
+50
+00:02:39,030 --> 00:02:41,680
+In this case, the product itself is free,
+
+51
+00:02:41,680 --> 00:02:45,950
+but it generates revenue by renting its users eyeballs to advertisers.
+
+52
+00:02:45,950 --> 00:02:51,230
+A lot of information of websites and apps use this model including weather dot com.
+
+53
+00:02:51,230 --> 00:02:55,175
+There's also a wide range of paid pricing models.
+
+54
+00:02:55,175 --> 00:02:58,040
+Value-based pricing. In this case,
+
+55
+00:02:58,040 --> 00:03:01,370
+the price is based on the value of a user gets from the product.
+
+56
+00:03:01,370 --> 00:03:04,480
+Professional athletes are a good example of this model.
+
+57
+00:03:04,480 --> 00:03:07,640
+LeBron James is worth millions of dollars because millions of
+
+58
+00:03:07,640 --> 00:03:10,895
+fans are willing to pay high price to watch him play,
+
+59
+00:03:10,895 --> 00:03:12,985
+and wear jerseys of his number.
+
+60
+00:03:12,985 --> 00:03:14,615
+Cost-based pricing.
+
+61
+00:03:14,615 --> 00:03:17,645
+There are many different flavors of cost-based pricing,
+
+62
+00:03:17,645 --> 00:03:20,750
+but they all use the cost of creating the product as
+
+63
+00:03:20,750 --> 00:03:24,845
+a base and added markup on that base to set the price.
+
+64
+00:03:24,845 --> 00:03:26,580
+Dynamic pricing.
+
+65
+00:03:26,580 --> 00:03:27,995
+In dynamic pricing,
+
+66
+00:03:27,995 --> 00:03:31,870
+the price changes reflect changes in the supply or demand.
+
+67
+00:03:31,870 --> 00:03:36,150
+Ride-sharing apps like Uber do this with search pricing.
+
+68
+00:03:36,150 --> 00:03:38,720
+Price discrimination. In this case,
+
+69
+00:03:38,720 --> 00:03:42,085
+different users are charged a different price for the same product.
+
+70
+00:03:42,085 --> 00:03:45,650
+The best example of this is airline ticket pricing.
+
+71
+00:03:45,650 --> 00:03:49,280
+A last minute traveler will definitely pay higher price for
+
+72
+00:03:49,280 --> 00:03:53,900
+an airline seat than a traveler who's able to plan ahead in the United States.
+
+73
+00:03:53,900 --> 00:03:56,200
+Outside, it might be the opposite,
+
+74
+00:03:56,200 --> 00:03:58,500
+and there are so many more models.
+
+75
+00:03:58,500 --> 00:04:01,670
+As a PM, it is not your job to be a pricing expert,
+
+76
+00:04:01,670 --> 00:04:05,435
+but you do need to understand the basic principles of pricing strategy,
+
+77
+00:04:05,435 --> 00:04:08,190
+and how your product fits in.
+

@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:03,255
+Welcome back. In the last lesson,
+
+2
+00:00:03,255 --> 00:00:05,640
+we set up our lunch process,
+
+3
+00:00:05,640 --> 00:00:07,950
+we talked about scaling our product,
+
+4
+00:00:07,950 --> 00:00:11,670
+and then we talked about how to identify the risks in a launch process,
+
+5
+00:00:11,670 --> 00:00:14,295
+and how we can minimize the effect.
+
+6
+00:00:14,295 --> 00:00:17,415
+Now, our launch process is underway,
+
+7
+00:00:17,415 --> 00:00:20,430
+it is time to start work in our go-to-market strategy.
+
+8
+00:00:20,430 --> 00:00:23,085
+At this stage, in the launch process,
+
+9
+00:00:23,085 --> 00:00:26,580
+we want to work especially close with our product marketing manager,
+
+10
+00:00:26,580 --> 00:00:28,050
+or PMM for short.
+
+11
+00:00:28,050 --> 00:00:32,435
+In this lesson, we'll concentrate how PMs and PMMs work together,
+
+12
+00:00:32,435 --> 00:00:33,935
+why it is important,
+
+13
+00:00:33,935 --> 00:00:35,895
+how we can help each other,
+
+14
+00:00:35,895 --> 00:00:40,925
+and we will discuss the overlaps between product manager and product marketing manager,
+
+15
+00:00:40,925 --> 00:00:44,155
+and what are some great ways to work together.
+
+16
+00:00:44,155 --> 00:00:47,450
+We will also talk about go-to-market strategy,
+
+17
+00:00:47,450 --> 00:00:49,415
+including the marketing message,
+
+18
+00:00:49,415 --> 00:00:53,960
+understanding competition, our channel strategy,
+
+19
+00:00:53,960 --> 00:00:58,500
+and our pricing strategy. Let's dive in.
+

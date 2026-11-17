@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:02,655
+Unless you work in a very small company,
+
+2
+00:00:02,655 --> 00:00:07,540
+you most likely be working with a lot of partners including product marketing manager.
+
+3
+00:00:07,540 --> 00:00:11,145
+What is the difference between PM and a PMM?
+
+4
+00:00:11,145 --> 00:00:15,045
+In some companies, there isn't a true separation between the two,
+
+5
+00:00:15,045 --> 00:00:19,740
+but in general, the PM is responsible for developing the product vision,
+
+6
+00:00:19,740 --> 00:00:22,620
+defining the key features of the product,
+
+7
+00:00:22,620 --> 00:00:27,210
+working with all the teams needed to create a product that meets that vision,
+
+8
+00:00:27,210 --> 00:00:30,750
+and managing the timeline of product development and release.
+
+9
+00:00:30,750 --> 00:00:34,080
+The PMM is responsible for communicating that vision to
+
+10
+00:00:34,080 --> 00:00:39,540
+users and getting them excited about the product the team has created.
+
+11
+00:00:39,540 --> 00:00:43,445
+They typically work closely with the product manager and sales team,
+
+12
+00:00:43,445 --> 00:00:46,115
+and manage the implementation of the pricing,
+
+13
+00:00:46,115 --> 00:00:48,620
+messaging, and channel strategies.
+
+14
+00:00:48,620 --> 00:00:55,510
+In general, the PM owns the product and the PMM owns the go-to-market strategy.
+
+15
+00:00:55,510 --> 00:00:59,940
+While the product marketing manager owns the implementation of the go-to-market strategy,
+
+16
+00:00:59,940 --> 00:01:04,250
+the PM and the product marketing manager need to collaborate to develop it.
+
+17
+00:01:04,250 --> 00:01:07,430
+We'll learn more about the process in a little bit.
+
+18
+00:01:07,430 --> 00:01:09,680
+You should involve your marketing partner in
+
+19
+00:01:09,680 --> 00:01:12,110
+the product development as early as possible,
+
+20
+00:01:12,110 --> 00:01:13,655
+and why should you do that?
+
+21
+00:01:13,655 --> 00:01:17,690
+Well, your marketing partner will need to think about how to market your product,
+
+22
+00:01:17,690 --> 00:01:20,485
+it is better to start thinking about it early on,
+
+23
+00:01:20,485 --> 00:01:24,300
+plus marketing partners have a lot of insight into the market,
+
+24
+00:01:24,300 --> 00:01:27,425
+so they can help you validate the ideas early on.
+
+25
+00:01:27,425 --> 00:01:32,680
+Not to mention, they can help you think through how to acquire users.
+
+26
+00:01:32,680 --> 00:01:37,970
+For example, if you're planning to acquire users for promotions or similar channels,
+
+27
+00:01:37,970 --> 00:01:40,520
+your marketing can guide you and help you think through
+
+28
+00:01:40,520 --> 00:01:45,655
+these channels and actually start on creating promotions marketing materials.
+
+29
+00:01:45,655 --> 00:01:51,080
+Your role will be to make sure that marketing partners are working in sync review,
+
+30
+00:01:51,080 --> 00:01:54,440
+so they in turn can create a comprehensive marketing strategy.
+
+31
+00:01:54,440 --> 00:01:59,315
+A good marketing strategy will help your product to gain the attention of your users.
+
+32
+00:01:59,315 --> 00:02:03,480
+So how do you achieve great collaboration with your marketing partner?
+
+33
+00:02:03,480 --> 00:02:06,390
+The same way we discussed in the previous lesson.
+
+34
+00:02:06,390 --> 00:02:12,290
+Communication. Part of it is also to have constant communication and not one-off.
+
+35
+00:02:12,290 --> 00:02:17,170
+I personally like having set time to meet with my marketing partner.
+
+36
+00:02:17,170 --> 00:02:20,240
+During this meeting, we discuss all our projects,
+
+37
+00:02:20,240 --> 00:02:21,310
+we look at the road map,
+
+38
+00:02:21,310 --> 00:02:24,985
+the planning and follow-ups on all our running projects.
+
+39
+00:02:24,985 --> 00:02:28,865
+Having good personal relationship helps move things forward.
+
+40
+00:02:28,865 --> 00:02:31,355
+More than once, we share the important information
+
+41
+00:02:31,355 --> 00:02:34,645
+just because it was in our mindset to update each other,
+
+42
+00:02:34,645 --> 00:02:38,670
+this also allows us good planning for the future.
+

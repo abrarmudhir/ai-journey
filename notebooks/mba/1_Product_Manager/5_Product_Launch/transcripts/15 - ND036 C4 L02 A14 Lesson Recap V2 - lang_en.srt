@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:02,640
+In this lesson, we learn how to work closely with
+
+2
+00:00:02,640 --> 00:00:05,835
+the product marketing manager to create a go-to-market strategy.
+
+3
+00:00:05,835 --> 00:00:08,175
+We talked about the marketing message,
+
+4
+00:00:08,175 --> 00:00:10,500
+how to research our competitors,
+
+5
+00:00:10,500 --> 00:00:13,530
+how to develop our acquisition channel strategy,
+
+6
+00:00:13,530 --> 00:00:15,225
+and our pricing strategy.
+
+7
+00:00:15,225 --> 00:00:18,315
+We are moving along nicely for product launch.
+
+8
+00:00:18,315 --> 00:00:19,710
+In our next lesson,
+
+9
+00:00:19,710 --> 00:00:22,290
+we'll talk about the other teams we need to work with
+
+10
+00:00:22,290 --> 00:00:26,320
+as we get closer to our launch day. See you soon.
+
