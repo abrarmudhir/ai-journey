@@ -1,0 +1,184 @@
+1
+00:00:00,000 --> 00:00:01,560
+As a product manager,
+
+2
+00:00:01,560 --> 00:00:06,045
+you do a lot of assumptions including how big the market for your product is.
+
+3
+00:00:06,045 --> 00:00:08,550
+In the end, you don't know that for sure
+
+4
+00:00:08,550 --> 00:00:11,595
+until you launch a new product is live for a while.
+
+5
+00:00:11,595 --> 00:00:14,460
+In Course 1, we discuss how we can calculate
+
+6
+00:00:14,460 --> 00:00:18,525
+the total addressable market and what assumption you should make.
+
+7
+00:00:18,525 --> 00:00:22,425
+We also discussed understanding who your potential competitors are.
+
+8
+00:00:22,425 --> 00:00:25,260
+In this course, we will look into our competitors
+
+9
+00:00:25,260 --> 00:00:27,990
+from a different angle, then market share.
+
+10
+00:00:27,990 --> 00:00:32,260
+We'll look at the market share of all competitors so we can understand the market forces,
+
+11
+00:00:32,260 --> 00:00:35,430
+and how much of the market we can realistically gain.
+
+12
+00:00:35,430 --> 00:00:39,900
+That helps us understand if there are any special need we can address
+
+13
+00:00:39,900 --> 00:00:44,765
+better than our competitors and if there is any segment of users we can serve better.
+
+14
+00:00:44,765 --> 00:00:48,830
+Just because you have competition doesn't mean your product can be successful.
+
+15
+00:00:48,830 --> 00:00:52,530
+You do need to understand your market and the competitors really well,
+
+16
+00:00:52,530 --> 00:00:56,515
+and have a good idea of how you will do better than your competition.
+
+17
+00:00:56,515 --> 00:01:00,140
+So how do you evaluate your competitor's market size?
+
+18
+00:01:00,140 --> 00:01:03,800
+Start by researching your competition as we learned in Class 1.
+
+19
+00:01:03,800 --> 00:01:06,290
+Once you know competitors really well,
+
+20
+00:01:06,290 --> 00:01:08,245
+let's look at the market share.
+
+21
+00:01:08,245 --> 00:01:11,880
+Research online and read as much data as you can.
+
+22
+00:01:11,880 --> 00:01:16,085
+For public companies, a lot of information is freely available online.
+
+23
+00:01:16,085 --> 00:01:19,530
+There are sizes specializing in statistics and a lot
+
+24
+00:01:19,530 --> 00:01:23,440
+provide the access to at least some level of information.
+
+25
+00:01:23,440 --> 00:01:26,690
+Also, of course, ask in your company if there are any tools,
+
+26
+00:01:26,690 --> 00:01:30,530
+dashboards, or access to any data providers that can help you learn more.
+
+27
+00:01:30,530 --> 00:01:32,660
+Let's assume for a second you work in
+
+28
+00:01:32,660 --> 00:01:36,310
+a small start-up and resources are not free or easy to come by.
+
+29
+00:01:36,310 --> 00:01:38,945
+Then start by looking for free data online.
+
+30
+00:01:38,945 --> 00:01:43,340
+Do you have any interesting articles about trends in your market?
+
+31
+00:01:43,340 --> 00:01:45,890
+Any projections? Read a couple,
+
+32
+00:01:45,890 --> 00:01:49,025
+compare the notes, and preferably sources.
+
+33
+00:01:49,025 --> 00:01:50,875
+So you need to; one,
+
+34
+00:01:50,875 --> 00:01:54,450
+understand who your competitors sees as a target customer.
+
+35
+00:01:54,450 --> 00:01:57,320
+For public companies, it might be easy to find.
+
+36
+00:01:57,320 --> 00:01:59,240
+In a lot of cases, these companies are
+
+37
+00:01:59,240 --> 00:02:02,180
+publishing some sort of a mission statement around it.
+
+38
+00:02:02,180 --> 00:02:05,135
+For private companies, it might be trickier,
+
+39
+00:02:05,135 --> 00:02:08,155
+but look for some research and articles online.
+
+40
+00:02:08,155 --> 00:02:12,710
+Two. Now, I can try searching for market leaders in a space you're researching;
+
+41
+00:02:12,710 --> 00:02:15,065
+the market share of the biggest competitor.
+
+42
+00:02:15,065 --> 00:02:18,200
+Are there any statistic about the market in general?
+
+43
+00:02:18,200 --> 00:02:21,850
+That altogether will give you a good view of the market.
+
+44
+00:02:21,850 --> 00:02:27,090
+Three. You can also see how many shares small competitors are getting.
+
+45
+00:02:27,090 --> 00:02:31,220
+That might give you a good sense of how much of the market share can be gained.
+
+46
+00:02:31,220 --> 00:02:36,090
+It's taking the biggest competitor from the get-go might be little bit tricky.
+

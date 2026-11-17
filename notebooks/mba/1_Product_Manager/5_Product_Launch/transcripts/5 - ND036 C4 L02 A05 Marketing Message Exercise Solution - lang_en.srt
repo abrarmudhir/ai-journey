@@ -1,0 +1,156 @@
+1
+00:00:00,000 --> 00:00:02,850
+Let's look at one potential solution.
+
+2
+00:00:02,850 --> 00:00:04,890
+Let's take a look on our app.
+
+3
+00:00:04,890 --> 00:00:10,665
+The main promise of our app is that it helps user organize parties all in one place,
+
+4
+00:00:10,665 --> 00:00:13,170
+from a venue picking to food ordering,
+
+5
+00:00:13,170 --> 00:00:17,205
+a guest management, and even wish list for all personal celebration.
+
+6
+00:00:17,205 --> 00:00:23,725
+So main advantages: ease of use, all-in-one solution,
+
+7
+00:00:23,725 --> 00:00:28,040
+and full guide to what you need to organize a great party,
+
+8
+00:00:28,040 --> 00:00:32,260
+and wish list incorporated all the party invites.
+
+9
+00:00:32,260 --> 00:00:35,400
+If we look in other apps on the market,
+
+10
+00:00:35,400 --> 00:00:39,060
+I would think about Evite and Paperless as our main competitors.
+
+11
+00:00:39,060 --> 00:00:45,550
+That said, these apps only do invites for the parties and not a fully party organization.
+
+12
+00:00:45,550 --> 00:00:48,800
+There are a lot of wedding sites but we'll leave it
+
+13
+00:00:48,800 --> 00:00:52,625
+aside since we're going to target more kids parties than weddings.
+
+14
+00:00:52,625 --> 00:00:55,810
+Weddings are too crowded market to go after.
+
+15
+00:00:55,810 --> 00:00:59,975
+So if our main advantage is all in one solution,
+
+16
+00:00:59,975 --> 00:01:02,630
+then our marketing message should be along
+
+17
+00:01:02,630 --> 00:01:06,565
+these lines: All in one party organization solution.
+
+18
+00:01:06,565 --> 00:01:09,140
+In addition, we will work with our marketing on
+
+19
+00:01:09,140 --> 00:01:12,145
+crafting the right promotion advertising for our app,
+
+20
+00:01:12,145 --> 00:01:13,990
+based on our marketing message.
+
+21
+00:01:13,990 --> 00:01:17,810
+We'll be working with our marketing team on building our future road map,
+
+22
+00:01:17,810 --> 00:01:22,280
+to make sure we're capturing more of the market going forward.
+
+23
+00:01:22,280 --> 00:01:23,920
+But we're not done yet.
+
+24
+00:01:23,920 --> 00:01:26,230
+Our app is two-sided market app.
+
+25
+00:01:26,230 --> 00:01:28,400
+It is called two-sided market app because we are
+
+26
+00:01:28,400 --> 00:01:31,300
+connecting one type of users and other type of user.
+
+27
+00:01:31,300 --> 00:01:33,980
+Before the party organizer site is ready,
+
+28
+00:01:33,980 --> 00:01:36,365
+we need to work with our marketing team to find
+
+29
+00:01:36,365 --> 00:01:39,140
+easy ways to bring more vendors to the platform.
+
+30
+00:01:39,140 --> 00:01:41,690
+That might require some creative work.
+
+31
+00:01:41,690 --> 00:01:46,135
+But there are a lot of two-sided market apps there so we can learn from them.
+
+32
+00:01:46,135 --> 00:01:49,455
+So how do vendors find clients today?
+
+33
+00:01:49,455 --> 00:01:52,840
+There are a lot of ways that vendors can market their services.
+
+34
+00:01:52,840 --> 00:01:56,075
+But one of the main competitors will be paid search.
+
+35
+00:01:56,075 --> 00:01:59,600
+Our advantages that users on our app are already in
+
+36
+00:01:59,600 --> 00:02:03,265
+the process of planning a party and they're ready to commit.
+
+37
+00:02:03,265 --> 00:02:07,320
+So our marketing message could be instant parties sales.
+
+38
+00:02:07,320 --> 00:02:11,190
+As you can see, I'm a product manager not a product marketing manager.
+
+39
+00:02:11,190 --> 00:02:14,400
+So I would leave that part to the marketing.
+

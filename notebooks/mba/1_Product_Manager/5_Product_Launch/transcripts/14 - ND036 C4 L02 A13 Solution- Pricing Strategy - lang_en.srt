@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:03,300
+We need to set a pricing strategy for our party app.
+
+2
+00:00:03,300 --> 00:00:06,045
+Let's look at one potential solution.
+
+3
+00:00:06,045 --> 00:00:08,655
+When I think for our party organizing app,
+
+4
+00:00:08,655 --> 00:00:10,365
+I see as two parts.
+
+5
+00:00:10,365 --> 00:00:16,095
+Part 1, is the users who are organizing parties and the other side is vendors,
+
+6
+00:00:16,095 --> 00:00:18,735
+who provide services for all users to use.
+
+7
+00:00:18,735 --> 00:00:21,690
+The main goal of our app is still to make money.
+
+8
+00:00:21,690 --> 00:00:25,260
+So let's start with the easier part, vendors.
+
+9
+00:00:25,260 --> 00:00:28,125
+With vendors, we can do a revenue share,
+
+10
+00:00:28,125 --> 00:00:30,210
+where once user buys these services,
+
+11
+00:00:30,210 --> 00:00:32,799
+we get a cut from that transaction.
+
+12
+00:00:32,799 --> 00:00:35,340
+But what about party organizers?
+
+13
+00:00:35,340 --> 00:00:37,715
+We would try to get annual revenue there.
+
+14
+00:00:37,715 --> 00:00:41,360
+Well, we can try out some ads for our vendors or vendor who just
+
+15
+00:00:41,360 --> 00:00:45,545
+want to advertise in our app and get some more revenue that way.
+
+16
+00:00:45,545 --> 00:00:49,730
+Professional party organizers might be more frequent users of our app.
+
+17
+00:00:49,730 --> 00:00:54,470
+We can create a freemium model for professional party organizers can pay subscription to
+
+18
+00:00:54,470 --> 00:00:59,620
+get extra perks including discounts on services and access to special products.
+
+19
+00:00:59,620 --> 00:01:01,550
+What was your idea?
+
+20
+00:01:01,550 --> 00:01:05,370
+How are you going to make money of our party app?
+

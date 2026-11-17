@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:03,270
+Let's think about the competitors for our party app.
+
+2
+00:00:03,270 --> 00:00:05,055
+I will start by thinking,
+
+3
+00:00:05,055 --> 00:00:09,210
+"Who is our target audience and who else is in the similar space?"
+
+4
+00:00:09,210 --> 00:00:13,230
+We're targeting users who need help organizing parties.
+
+5
+00:00:13,230 --> 00:00:18,780
+The main competitors coming to mind are companies who are managing party invites.
+
+6
+00:00:18,780 --> 00:00:20,940
+I will look into Evite.
+
+7
+00:00:20,940 --> 00:00:26,925
+Evite is a company that helps its users with party invitations and managing guests.
+
+8
+00:00:26,925 --> 00:00:31,110
+While we start looking for what Evite define as the customers
+
+9
+00:00:31,110 --> 00:00:35,235
+that are the majority of Evite users are college-educated,
+
+10
+00:00:35,235 --> 00:00:37,455
+effluent females with children.
+
+11
+00:00:37,455 --> 00:00:41,640
+This is very close to what we're targeting with our app.
+
+12
+00:00:41,640 --> 00:00:45,450
+Now, let's see what market share they got.
+
+13
+00:00:45,450 --> 00:00:46,850
+If we start searching,
+
+14
+00:00:46,850 --> 00:00:52,040
+we can see that Eventbrite is actually the market leader, with 60.9 percent.
+
+15
+00:00:52,040 --> 00:00:56,395
+Evite has about 0.26 market share.
+
+16
+00:00:56,395 --> 00:00:58,350
+Evite is a private company,
+
+17
+00:00:58,350 --> 00:01:01,835
+so it might be more difficult to find where more information about it.
+
+18
+00:01:01,835 --> 00:01:03,785
+If we dig a little bit deeper,
+
+19
+00:01:03,785 --> 00:01:07,175
+we can go and learn more about our competitor's website.
+
+20
+00:01:07,175 --> 00:01:09,445
+Since is an online business,
+
+21
+00:01:09,445 --> 00:01:14,105
+Evite gets about 26.7 million monthly visit to their website,
+
+22
+00:01:14,105 --> 00:01:16,390
+most of it is organic search.
+
+23
+00:01:16,390 --> 00:01:18,815
+What we can learn from the data,
+
+24
+00:01:18,815 --> 00:01:23,795
+we see a lot of competition but not all within its exactly same space,
+
+25
+00:01:23,795 --> 00:01:26,185
+so there is a space for one more.
+
+26
+00:01:26,185 --> 00:01:28,980
+Well-known one don't get a lot of
+
+27
+00:01:28,980 --> 00:01:32,780
+traffic so we should not anticipate a lot of traffic initially.
+
+28
+00:01:32,780 --> 00:01:35,960
+All the data we collect gives us a picture of what
+
+29
+00:01:35,960 --> 00:01:39,540
+to expect and where we go after this market.
+
